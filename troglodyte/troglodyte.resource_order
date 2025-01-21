@@ -1,12 +1,13 @@
 {
   "FolderOrderSettings":[
-    {"name":"Enemies","order":2,"path":"folders/Objects/Enemies.yy",},
-    {"name":"Mob - Boar","order":1,"path":"folders/Sprites/Mob - Boar.yy",},
-    {"name":"Mob - Tiger","order":2,"path":"folders/Sprites/Mob - Tiger.yy",},
+    {"name":"Player","order":1,"path":"folders/Objects/Player.yy",},
+    {"name":"Backgrounds","order":6,"path":"folders/Sprites/Backgrounds.yy",},
   ],
   "ResourceOrderSettings":[
-    {"name":"Boar_Attack","order":2,"path":"sprites/Boar_Attack/Boar_Attack.yy",},
-    {"name":"Tiger_Sprite_swipe","order":2,"path":"sprites/Tiger_Sprite_swipe/Tiger_Sprite_swipe.yy",},
-    {"name":"Tiger_Sprite_walk","order":1,"path":"sprites/Tiger_Sprite_walk/Tiger_Sprite_walk.yy",},
+    {"name":"rm_init","order":1,"path":"rooms/rm_init/rm_init.yy",},
+    {"name":"spr_skies","order":1,"path":"sprites/spr_skies/spr_skies.yy",},
+    {"name":"spr_tree_distant_2","order":2,"path":"sprites/spr_tree_distant_2/spr_tree_distant_2.yy",},
+    {"name":"spr_trees_distant_1","order":3,"path":"sprites/spr_trees_distant_1/spr_trees_distant_1.yy",},
+    {"name":"spr_trees_distant_3","order":4,"path":"sprites/spr_trees_distant_3/spr_trees_distant_3.yy",},
   ],
 }
