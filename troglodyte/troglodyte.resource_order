@@ -1,16 +1,13 @@
 {
   "FolderOrderSettings":[
-    {"name":"chr","order":11,"path":"folders/Sprites/chr.yy",},
-    {"name":"mob","order":12,"path":"folders/Sprites/mob.yy",},
-    {"name":"yeti","order":13,"path":"folders/Sprites/yeti.yy",},
+    {"name":"Enemies","order":2,"path":"folders/Objects/Enemies.yy",},
+    {"name":"Mob - Tiger","order":2,"path":"folders/Sprites/Mob - Tiger.yy",},
+    {"name":"Mob - Boar","order":1,"path":"folders/Sprites/Mob - Boar.yy",},
   ],
   "ResourceOrderSettings":[
-    {"name":"chr_w_club","order":1,"path":"sprites/chr_w_club/chr_w_club.yy",},
-    {"name":"chr_w_speer","order":2,"path":"sprites/chr_w_speer/chr_w_speer.yy",},
-    {"name":"chr_w_sword","order":3,"path":"sprites/chr_w_sword/chr_w_sword.yy",},
-    {"name":"mob_boar_idle","order":1,"path":"sprites/mob_boar_idle/mob_boar_idle.yy",},
-    {"name":"mob_boar_move","order":2,"path":"sprites/mob_boar_move/mob_boar_move.yy",},
-    {"name":"mob_chr","order":3,"path":"sprites/mob_chr/mob_chr.yy",},
-    {"name":"mob_tiger","order":4,"path":"sprites/mob_tiger/mob_tiger.yy",},
+    {"name":"Boar_Attack","order":2,"path":"sprites/Boar_Attack/Boar_Attack.yy",},
+    {"name":"Boar_Idle","order":1,"path":"sprites/Boar_Idle/Boar_Idle.yy",},
+    {"name":"Tiger_Sprite_swipe","order":2,"path":"sprites/Tiger_Sprite_swipe/Tiger_Sprite_swipe.yy",},
+    {"name":"Tiger_Sprite_walk","order":1,"path":"sprites/Tiger_Sprite_walk/Tiger_Sprite_walk.yy",},
   ],
 }
