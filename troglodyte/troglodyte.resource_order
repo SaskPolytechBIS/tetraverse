@@ -1,0 +1,13 @@
+{
+  "FolderOrderSettings":[
+    {"name":"Enemies","order":2,"path":"folders/Objects/Enemies.yy",},
+    {"name":"Mob - Tiger","order":2,"path":"folders/Sprites/Mob - Tiger.yy",},
+    {"name":"Mob - Boar","order":1,"path":"folders/Sprites/Mob - Boar.yy",},
+  ],
+  "ResourceOrderSettings":[
+    {"name":"Boar_Attack","order":2,"path":"sprites/Boar_Attack/Boar_Attack.yy",},
+    {"name":"Boar_Idle","order":1,"path":"sprites/Boar_Idle/Boar_Idle.yy",},
+    {"name":"Tiger_Sprite_swipe","order":2,"path":"sprites/Tiger_Sprite_swipe/Tiger_Sprite_swipe.yy",},
+    {"name":"Tiger_Sprite_walk","order":1,"path":"sprites/Tiger_Sprite_walk/Tiger_Sprite_walk.yy",},
+  ],
+}
