@@ -42,7 +42,6 @@
     {"id":{"name":"obj_parallax","path":"objects/obj_parallax/obj_parallax.yy",},},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
     {"id":{"name":"Boar_Attack","path":"sprites/Boar_Attack/Boar_Attack.yy",},},
-    {"id":{"name":"Boar_Idle","path":"sprites/Boar_Idle/Boar_Idle.yy",},},
     {"id":{"name":"Boar_Move","path":"sprites/Boar_Move/Boar_Move.yy",},},
     {"id":{"name":"spr_ground","path":"sprites/spr_ground/spr_ground.yy",},},
     {"id":{"name":"spr_mountain","path":"sprites/spr_mountain/spr_mountain.yy",},},
