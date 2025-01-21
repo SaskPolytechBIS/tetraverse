@@ -1,11 +1,21 @@
 {
   "FolderOrderSettings":[
     {"name":"Enemies","order":2,"path":"folders/Objects/Enemies.yy",},
+    {"name":"main chr","order":5,"path":"folders/Sprites/main chr.yy",},
     {"name":"Mob - Boar","order":1,"path":"folders/Sprites/Mob - Boar.yy",},
     {"name":"Mob - Tiger","order":2,"path":"folders/Sprites/Mob - Tiger.yy",},
   ],
   "ResourceOrderSettings":[
     {"name":"Boar_Attack","order":2,"path":"sprites/Boar_Attack/Boar_Attack.yy",},
+    {"name":"king_dance","order":9,"path":"sprites/king_dance/king_dance.yy",},
+    {"name":"main_chr_idle","order":2,"path":"sprites/main_chr_idle/main_chr_idle.yy",},
+    {"name":"main_chr_idle2","order":3,"path":"sprites/main_chr_idle2/main_chr_idle2.yy",},
+    {"name":"main_chr_idle3","order":4,"path":"sprites/main_chr_idle3/main_chr_idle3.yy",},
+    {"name":"main_chr_move_speer","order":5,"path":"sprites/main_chr_move_speer/main_chr_move_speer.yy",},
+    {"name":"main_chr_move_sword","order":7,"path":"sprites/main_chr_move_sword/main_chr_move_sword.yy",},
+    {"name":"main_club_atk","order":1,"path":"sprites/main_club_atk/main_club_atk.yy",},
+    {"name":"main_speer_atk","order":6,"path":"sprites/main_speer_atk/main_speer_atk.yy",},
+    {"name":"main_sword_atk","order":8,"path":"sprites/main_sword_atk/main_sword_atk.yy",},
     {"name":"Tiger_Sprite_swipe","order":2,"path":"sprites/Tiger_Sprite_swipe/Tiger_Sprite_swipe.yy",},
     {"name":"Tiger_Sprite_walk","order":1,"path":"sprites/Tiger_Sprite_walk/Tiger_Sprite_walk.yy",},
   ],
