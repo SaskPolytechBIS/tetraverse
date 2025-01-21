@@ -1,8 +1,8 @@
 {
   "FolderOrderSettings":[
     {"name":"Enemies","order":2,"path":"folders/Objects/Enemies.yy",},
-    {"name":"Mob - Tiger","order":2,"path":"folders/Sprites/Mob - Tiger.yy",},
     {"name":"Mob - Boar","order":1,"path":"folders/Sprites/Mob - Boar.yy",},
+    {"name":"Mob - Tiger","order":2,"path":"folders/Sprites/Mob - Tiger.yy",},
   ],
   "ResourceOrderSettings":[
     {"name":"Boar_Attack","order":2,"path":"sprites/Boar_Attack/Boar_Attack.yy",},
