@@ -1,11 +1,22 @@
 {
   "FolderOrderSettings":[
+    {"name":"Ambients","order":5,"path":"folders/Objects/Ambients.yy",},
     {"name":"Enemies","order":2,"path":"folders/Objects/Enemies.yy",},
+    {"name":"MainC","order":4,"path":"folders/Objects/MainC.yy",},
+    {"name":"Main C","order":3,"path":"folders/Sprites/Main C.yy",},
     {"name":"Mob - Boar","order":1,"path":"folders/Sprites/Mob - Boar.yy",},
     {"name":"Mob - Tiger","order":2,"path":"folders/Sprites/Mob - Tiger.yy",},
   ],
   "ResourceOrderSettings":[
+    {"name":"objMountain","order":4,"path":"objects/objMountain/objMountain.yy",},
+    {"name":"objSky","order":3,"path":"objects/objSky/objSky.yy",},
+    {"name":"objTree1","order":2,"path":"objects/objTree1/objTree1.yy",},
+    {"name":"objTree2","order":1,"path":"objects/objTree2/objTree2.yy",},
+    {"name":"objTree3","order":5,"path":"objects/objTree3/objTree3.yy",},
+    {"name":"Caves","order":1,"path":"rooms/Caves/Caves.yy",},
     {"name":"Boar_Attack","order":2,"path":"sprites/Boar_Attack/Boar_Attack.yy",},
+    {"name":"MainC_Atk","order":1,"path":"sprites/MainC_Atk/MainC_Atk.yy",},
+    {"name":"MainC_Run","order":2,"path":"sprites/MainC_Run/MainC_Run.yy",},
     {"name":"Tiger_Sprite_swipe","order":2,"path":"sprites/Tiger_Sprite_swipe/Tiger_Sprite_swipe.yy",},
     {"name":"Tiger_Sprite_walk","order":1,"path":"sprites/Tiger_Sprite_walk/Tiger_Sprite_walk.yy",},
   ],
