@@ -14,7 +14,8 @@ else {
 }
 
 ////combat
-if (mouse_check_button_pressed(mb_left) or keyboard_check_pressed(ord("J"))){
+if (mouse_check_button_pressed(mb_left) or keyboard_check(ord("J"))){
+	instance_create_layer(x,y,  ObjMainC);
 	sprite_index = MainC_Atk;
 	image_speed = 0.3;
 }
