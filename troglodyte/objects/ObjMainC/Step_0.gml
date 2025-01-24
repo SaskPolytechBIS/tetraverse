@@ -16,5 +16,5 @@ else {
 ////combat
 if (mouse_check_button_pressed(mb_left) or keyboard_check_pressed(ord("J"))){
 	sprite_index = MainC_Atk;
-	
+	image_speed = 0.3;
 }
