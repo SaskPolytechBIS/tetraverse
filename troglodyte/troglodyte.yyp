@@ -46,6 +46,7 @@
     {"id":{"name":"spr_mountain","path":"sprites/spr_mountain/spr_mountain.yy",},},
     {"id":{"name":"spr_skies","path":"sprites/spr_skies/spr_skies.yy",},},
     {"id":{"name":"spr_temp_player","path":"sprites/spr_temp_player/spr_temp_player.yy",},},
+    {"id":{"name":"spr_TEST","path":"sprites/spr_TEST/spr_TEST.yy",},},
     {"id":{"name":"spr_tree_distant_2","path":"sprites/spr_tree_distant_2/spr_tree_distant_2.yy",},},
     {"id":{"name":"spr_trees_distant_1","path":"sprites/spr_trees_distant_1/spr_trees_distant_1.yy",},},
     {"id":{"name":"spr_trees_distant_3","path":"sprites/spr_trees_distant_3/spr_trees_distant_3.yy",},},
