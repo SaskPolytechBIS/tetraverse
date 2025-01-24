@@ -49,6 +49,7 @@
     {"id":{"name":"spr_tree_distant_2","path":"sprites/spr_tree_distant_2/spr_tree_distant_2.yy",},},
     {"id":{"name":"spr_trees_distant_1","path":"sprites/spr_trees_distant_1/spr_trees_distant_1.yy",},},
     {"id":{"name":"spr_trees_distant_3","path":"sprites/spr_trees_distant_3/spr_trees_distant_3.yy",},},
+    {"id":{"name":"Tiger_Sprite_death","path":"sprites/Tiger_Sprite_death/Tiger_Sprite_death.yy",},},
     {"id":{"name":"Tiger_Sprite_idle","path":"sprites/Tiger_Sprite_idle/Tiger_Sprite_idle.yy",},},
     {"id":{"name":"Tiger_Sprite_swipe","path":"sprites/Tiger_Sprite_swipe/Tiger_Sprite_swipe.yy",},},
     {"id":{"name":"Tiger_Sprite_walk","path":"sprites/Tiger_Sprite_walk/Tiger_Sprite_walk.yy",},},

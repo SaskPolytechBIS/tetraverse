@@ -6,6 +6,7 @@
   ],
   "ResourceOrderSettings":[
     {"name":"Boar_Attack","order":2,"path":"sprites/Boar_Attack/Boar_Attack.yy",},
+    {"name":"Tiger_Sprite_death","order":3,"path":"sprites/Tiger_Sprite_death/Tiger_Sprite_death.yy",},
     {"name":"Tiger_Sprite_swipe","order":2,"path":"sprites/Tiger_Sprite_swipe/Tiger_Sprite_swipe.yy",},
     {"name":"Tiger_Sprite_walk","order":1,"path":"sprites/Tiger_Sprite_walk/Tiger_Sprite_walk.yy",},
   ],
