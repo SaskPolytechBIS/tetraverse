@@ -11,4 +11,3 @@ if (instance_exists(obj_player)) {
     layer_x("bg_parallax_trees_distant_2", -player_x * layer_speed4);
     layer_x("bg_parallax_trees_distant_1", -player_x * layer_speed5);
 }
-

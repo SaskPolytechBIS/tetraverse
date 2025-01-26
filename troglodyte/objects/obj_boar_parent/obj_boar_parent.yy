@@ -10,8 +10,8 @@
   "name":"obj_boar_parent",
   "overriddenProperties":[],
   "parent":{
-    "name":"Enemies",
-    "path":"folders/Objects/Enemies.yy",
+    "name":"Mobs",
+    "path":"folders/Objects/Mobs.yy",
   },
   "parentObjectId":null,
   "persistent":false,
