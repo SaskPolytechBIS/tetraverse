@@ -4,8 +4,8 @@
     {"name":"Mobs","order":2,"path":"folders/Objects/Mobs.yy",},
     {"name":"Buttons","order":11,"path":"folders/Sprites/Buttons.yy",},
     {"name":"Health Level","order":12,"path":"folders/Sprites/Health Level.yy",},
-    {"name":"Player","order":5,"path":"folders/Sprites/Player.yy",},
     {"name":"Mobs","order":1,"path":"folders/Sprites/Mobs.yy",},
+    {"name":"Player","order":5,"path":"folders/Sprites/Player.yy",},
   ],
   "ResourceOrderSettings":[
     {"name":"obj_btn_back","order":2,"path":"objects/obj_btn_back/obj_btn_back.yy",},
