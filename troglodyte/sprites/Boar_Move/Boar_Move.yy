@@ -30,8 +30,8 @@
   "nineSlice":null,
   "origin":0,
   "parent":{
-    "name":"Mob - Boar",
-    "path":"folders/Sprites/Mob - Boar.yy",
+    "name":"Mobs",
+    "path":"folders/Sprites/Mobs.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

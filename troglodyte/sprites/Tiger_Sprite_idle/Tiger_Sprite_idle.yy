@@ -32,8 +32,8 @@
   "nineSlice":null,
   "origin":9,
   "parent":{
-    "name":"Mob - Tiger",
-    "path":"folders/Sprites/Mob - Tiger.yy",
+    "name":"Mobs",
+    "path":"folders/Sprites/Mobs.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",
