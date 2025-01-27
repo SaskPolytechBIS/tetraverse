@@ -1,0 +1,25 @@
+{
+  "$GMSound":"",
+  "%Name":"sfx_Cavemen_hoo_haa",
+  "audioGroupId":{
+    "name":"audiogroup_default",
+    "path":"audiogroups/audiogroup_default",
+  },
+  "bitDepth":1,
+  "bitRate":128,
+  "compression":0,
+  "conversionMode":0,
+  "duration":1.01875,
+  "name":"sfx_Cavemen_hoo_haa",
+  "parent":{
+    "name":"Enemies Sfx",
+    "path":"folders/Sounds/Enemies Sfx.yy",
+  },
+  "preload":false,
+  "resourceType":"GMSound",
+  "resourceVersion":"2.0",
+  "sampleRate":44100,
+  "soundFile":"sfx_Cavemen_hoo_haa.MP3",
+  "type":0,
+  "volume":1.0,
+}
