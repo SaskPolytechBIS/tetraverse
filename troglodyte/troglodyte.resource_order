@@ -2,10 +2,14 @@
   "FolderOrderSettings":[
     {"name":"Buttons","order":4,"path":"folders/Objects/Buttons.yy",},
     {"name":"Mobs","order":2,"path":"folders/Objects/Mobs.yy",},
+    {"name":"Enemies Sfx","order":2,"path":"folders/Sounds/Enemies Sfx.yy",},
+    {"name":"Menu Audio","order":4,"path":"folders/Sounds/Menu Audio.yy",},
+    {"name":"Player Sfx","order":1,"path":"folders/Sounds/Player Sfx.yy",},
+    {"name":"Rooms audio","order":3,"path":"folders/Sounds/Rooms audio.yy",},
     {"name":"Buttons","order":11,"path":"folders/Sprites/Buttons.yy",},
     {"name":"Health Level","order":12,"path":"folders/Sprites/Health Level.yy",},
-    {"name":"Player","order":5,"path":"folders/Sprites/Player.yy",},
     {"name":"Mobs","order":1,"path":"folders/Sprites/Mobs.yy",},
+    {"name":"Player","order":5,"path":"folders/Sprites/Player.yy",},
   ],
   "ResourceOrderSettings":[
     {"name":"obj_btn_back","order":2,"path":"objects/obj_btn_back/obj_btn_back.yy",},
