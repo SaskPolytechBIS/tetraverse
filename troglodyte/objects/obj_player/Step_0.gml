@@ -10,6 +10,7 @@ var _left = keyboard_check(vk_left) or keyboard_check(ord("A"));
 var _right = keyboard_check(vk_right) or keyboard_check(ord("D"));
 var _jump = keyboard_check_pressed(vk_up) or keyboard_check_pressed(ord("W"));
 var _jump_held = keyboard_check(vk_up) or keyboard_check(ord("W"));
+var _attack = keyboard_check_pressed(ord("J")) or mouse_check_button_pressed(mb_left);
 
 #endregion
 
