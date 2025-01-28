@@ -1,18 +1,21 @@
 {
   "$GMObject":"",
-  "%Name":"obj_player",
+  "%Name":"obj_boar",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"obj_player",
+  "name":"obj_boar",
   "overriddenProperties":[],
   "parent":{
-    "name":"Objects",
-    "path":"folders/Objects.yy",
+    "name":"Mobs",
+    "path":"folders/Objects/Mobs.yy",
   },
-  "parentObjectId":null,
+  "parentObjectId":{
+    "name":"obj_hostile",
+    "path":"objects/obj_hostile/obj_hostile.yy",
+  },
   "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,
@@ -31,12 +34,9 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"main_chr_idle",
-    "path":"sprites/main_chr_idle/main_chr_idle.yy",
+    "name":"Boar_Move",
+    "path":"sprites/Boar_Move/Boar_Move.yy",
   },
-  "spriteMaskId":{
-    "name":"main_chr_idle",
-    "path":"sprites/main_chr_idle/main_chr_idle.yy",
-  },
+  "spriteMaskId":null,
   "visible":true,
 }
