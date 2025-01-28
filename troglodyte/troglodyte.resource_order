@@ -10,9 +10,11 @@
   "ResourceOrderSettings":[
     {"name":"obj_btn_back","order":2,"path":"objects/obj_btn_back/obj_btn_back.yy",},
     {"name":"obj_btn_credits","order":1,"path":"objects/obj_btn_credits/obj_btn_credits.yy",},
+    {"name":"obj_ground","order":7,"path":"objects/obj_ground/obj_ground.yy",},
     {"name":"obj_healthbar","order":5,"path":"objects/obj_healthbar/obj_healthbar.yy",},
     {"name":"obj_menu_controller","order":6,"path":"objects/obj_menu_controller/obj_menu_controller.yy",},
     {"name":"obj_player","order":3,"path":"objects/obj_player/obj_player.yy",},
+    {"name":"Jg_testing","order":3,"path":"rooms/Jg_testing/Jg_testing.yy",},
     {"name":"rm_credits","order":2,"path":"rooms/rm_credits/rm_credits.yy",},
     {"name":"rm_menu","order":1,"path":"rooms/rm_menu/rm_menu.yy",},
     {"name":"Boar_Attack","order":1,"path":"sprites/Boar_Attack/Boar_Attack.yy",},
