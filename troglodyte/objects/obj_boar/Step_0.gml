@@ -10,7 +10,19 @@ if (place_meeting(x+hSpeed, y,obj_ground)) {
 	var _pixel = sign(hSpeed);
 	while (!place_meeting(x+_pixel, y, obj_ground)) x += _pixel;
 	hSpeed = 0;
+	current_dir *= -1;
+	image_xscale *= -1;
 }
+
+/// collision with other mobs
+if (place_meeting(x+hSpeed, y,obj_hostile)) {
+	var _pixel = sign(hSpeed);
+	while (!place_meeting(x+_pixel, y, obj_hostile)) x += _pixel;
+	hSpeed = 0;
+	current_dir *= -1;
+	image_xscale *= -1;
+}
+
 
 /// vertical collision
 if (place_meeting(x, y+vSpeed,obj_ground)) {

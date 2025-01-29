@@ -1,9 +1,9 @@
 {
   "$GMObject":"",
-  "%Name":"obj_ancient_people",
+  "%Name":"obj_cave_man",
   "eventList":[],
   "managed":true,
-  "name":"obj_ancient_people",
+  "name":"obj_cave_man",
   "overriddenProperties":[],
   "parent":{
     "name":"Mobs",

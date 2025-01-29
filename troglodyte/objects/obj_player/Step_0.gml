@@ -10,7 +10,7 @@ var _left = keyboard_check(vk_left) or keyboard_check(ord("A"));
 var _right = keyboard_check(vk_right) or keyboard_check(ord("D"));
 var _jump = keyboard_check_pressed(vk_up) or keyboard_check_pressed(ord("W"));
 var _jump_held = keyboard_check(vk_up) or keyboard_check(ord("W"));
-var _attack = keyboard_check_pressed(ord("J")) or mouse_check_button_pressed(mb_left);
+var _attack = keyboard_check_pressed(vk_space) or mouse_check_button_pressed(mb_left);
 
 #endregion
 
@@ -97,13 +97,26 @@ if (hSpeed != 0) image_xscale = sign(hSpeed);
 
 if (!_onground) {
 	sprite_index = king_dance;
-	image_speed = 0;
+	image_speed = 0.3;
 	image_index = (vSpeed > 0)
 } else {
 	if (hSpeed != 0){
 		sprite_index = main_chr_move;
 	} else {
 		sprite_index = main_chr_idle
+	}
+}
+
+#endregion
+
+#region Attack
+
+if (attack_cooldown > 0){
+	attack_cooldown = max(0, attack_cooldown -1);
+} else {
+	if (_attack) {
+		attack_cooldown = attack_max;
+		instance_create_layer(x,y,"Weapon",obj_club);
 	}
 }
 

@@ -17,5 +17,9 @@ jumpheight = -10;
 jumpbuffer = 8;
 jumpheight_min = -4;
 
+/// Attack
+attack_cooldown = 0;
+attack_max = 10; // number of frames before we can do another attack
+
 // Make sure player starts with full health
 health_level = 5;
