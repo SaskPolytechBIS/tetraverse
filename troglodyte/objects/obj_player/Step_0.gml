@@ -96,7 +96,7 @@ image_speed = 1;
 if (hSpeed != 0) image_xscale = sign(hSpeed);
 
 if (!_onground) {
-	sprite_index = king_dance;
+	sprite_index = main_chr_jump;
 	image_speed = 0.3;
 	image_index = (vSpeed > 0)
 } else {
@@ -111,21 +111,14 @@ if (!_onground) {
 
 #region Attack
 
-if (attack_cooldown > 0){
-	attack_cooldown = max(0, attack_cooldown -1);
-} else {
-	if (_attack) {
-		attack_cooldown = attack_max;
-		instance_create_layer(x,y,"Weapon",obj_club);
-	}
+if (_attack) {
+	sprite_index = main_club_atk;
+	image_speed = 0;
 }
 
 #endregion
 
 #region Enemies
-
-
-
 
 #endregion
 
