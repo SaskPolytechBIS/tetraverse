@@ -2,7 +2,7 @@
 x += speed * direction;
 
 // Check for collisions with walls or edges
-if (place_meeting(x + (direction * speed), y, obj_wall)) {
+if (place_meeting(x + (direction * speed), y, obj_ground)) {
     direction = -direction;  // Reverse direction
 }
 
