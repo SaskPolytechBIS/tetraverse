@@ -129,3 +129,4 @@ if (instance_exists(obj_healthbar)) {
 
 
 
+show_debug_message("Attack Frame: " + string(image_index));

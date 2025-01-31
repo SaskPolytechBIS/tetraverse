@@ -30,6 +30,7 @@
     {"name":"main_chr_move_club","order":10,"path":"sprites/main_chr_move_club/main_chr_move_club.yy",},
     {"name":"main_chr_move_speer","order":5,"path":"sprites/main_chr_move_speer/main_chr_move_speer.yy",},
     {"name":"main_club_atk","order":1,"path":"sprites/main_club_atk/main_club_atk.yy",},
+    {"name":"main_collision_mask","order":12,"path":"sprites/main_collision_mask/main_collision_mask.yy",},
     {"name":"main_speer_atk","order":6,"path":"sprites/main_speer_atk/main_speer_atk.yy",},
     {"name":"spr_btn_credits","order":1,"path":"sprites/spr_btn_credits/spr_btn_credits.yy",},
     {"name":"spr_btn_newgame","order":2,"path":"sprites/spr_btn_newgame/spr_btn_newgame.yy",},

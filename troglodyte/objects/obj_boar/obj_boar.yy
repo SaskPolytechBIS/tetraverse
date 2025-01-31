@@ -37,6 +37,9 @@
     "name":"Boar_Move",
     "path":"sprites/Boar_Move/Boar_Move.yy",
   },
-  "spriteMaskId":null,
+  "spriteMaskId":{
+    "name":"main_collision_mask",
+    "path":"sprites/main_collision_mask/main_collision_mask.yy",
+  },
   "visible":true,
 }

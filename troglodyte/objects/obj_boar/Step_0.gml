@@ -12,7 +12,7 @@ if (x < 0 || x > room_width - sprite_width) {
 
 // Gravity
 if (!place_meeting(x, y + 1, obj_ground)) {
-    y += 4;  // Apply gravity
+    y -= 1;  // Apply gravity
 }
 
 // Patrol between two points
