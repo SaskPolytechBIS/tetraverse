@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"boar_anim",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"boar_anim",
+  "parent":{
+    "name":"Mobs",
+    "path":"folders/Scripts/Mobs.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

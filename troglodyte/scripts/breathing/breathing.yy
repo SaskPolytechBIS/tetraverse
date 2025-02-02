@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"breathing",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"breathing",
+  "parent":{
+    "name":"Boar",
+    "path":"folders/Scripts/Mobs/Boar.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}
