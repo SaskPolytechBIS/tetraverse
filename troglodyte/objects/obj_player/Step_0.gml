@@ -4,6 +4,7 @@ switch (state)
 {
 	case "move":
 		#region Move State
+		
 		// press right key to move to the right
 		if input.right
 		{
@@ -70,6 +71,9 @@ switch (state)
 		
 	case "jump":
 		#region Jump State
+		// Set the jump sprite
+		sprite_index = main_chr_jump; // Assign your jump sprite
+		
 		// Apply gravity but clamp to max fall speed
 	    vspeed = min(vspeed + 0.4, 8); 
 
@@ -85,18 +89,20 @@ switch (state)
 	        image_xscale = -1;
 	    }
 
-	    move_collide(0, vspeed); // Apply vertical movement
+	    var hit = move_collide(0, vspeed); // Apply vertical movement
 
 	    // Check if player has landed
 	    if place_meeting(x, y + 1, obj_ground)
 	    {
 	        vspeed = 0; // Stop downward movement when touching the ground
-	        y = y - (y mod 1); // Snap to the ground properly
+	        y = y - ((y + 1) mod 1); // Snap to the ground properly
+			sprite_index = main_chr_move; // Reset to move sprite after landing
 	        state = "move";
 	    }
 		
 		if animation_end()
 		{
+			sprite_index = main_chr_move; // Reset to move sprite after landing
 			state = "move";
 		}
 		#endregion

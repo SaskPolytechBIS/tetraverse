@@ -37,6 +37,9 @@
     "name":"main_chr_idle",
     "path":"sprites/main_chr_idle/main_chr_idle.yy",
   },
-  "spriteMaskId":null,
+  "spriteMaskId":{
+    "name":"main_collision_mask",
+    "path":"sprites/main_collision_mask/main_collision_mask.yy",
+  },
   "visible":true,
 }

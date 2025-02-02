@@ -1,8 +1,26 @@
 switch (state)
 {
+	case "idle":
+		#region Idle State
+			set_state_sprite(Tiger_Sprite_idle, 0.5, 0); // Set idle animation
+        
+	        if not instance_exists(obj_player) break;
+
+	        // Get player's position
+	        var player_x = obj_player.x;
+	        var distance_to_player = point_distance(x, y, player_x, obj_player.y);
+        
+	        // If player enters detection range, switch to chase
+	        if distance_to_player <= detection_range
+	        {
+	            state = "chase";
+	        }
+		#endregion
+		break;
+	
 	case "chase":
 		#region Chase State
-		set_state_sprite(Tiger_Sprite_walk, 0.8, 0);
+		set_state_sprite(Tiger_Sprite_walk, 0.5, 0);
 		
 		if not instance_exists(obj_player) break;
 		
@@ -26,6 +44,11 @@ switch (state)
         {
 			
 			state = "attack";
+        }
+		// If player is too far, stop chasing and return to idle
+        else if distance_to_player > detection_range + 20 // Add some buffer to prevent instant reactivation
+        {
+            state = "idle";
         }
 		else
 		{

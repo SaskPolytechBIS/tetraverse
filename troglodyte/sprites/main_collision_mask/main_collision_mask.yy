@@ -1,7 +1,7 @@
 {
   "$GMSprite":"",
   "%Name":"main_collision_mask",
-  "bboxMode":2,
+  "bboxMode":0,
   "bbox_bottom":55,
   "bbox_left":19,
   "bbox_right":39,
