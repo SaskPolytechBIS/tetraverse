@@ -1,10 +1,10 @@
 {
   "$GMSprite":"",
   "%Name":"spr_ground",
-  "bboxMode":0,
+  "bboxMode":2,
   "bbox_bottom":79,
-  "bbox_left":16,
-  "bbox_right":111,
+  "bbox_left":8,
+  "bbox_right":103,
   "bbox_top":11,
   "collisionKind":1,
   "collisionTolerance":0,

@@ -1,5 +1,3 @@
-/// @description Insert description here
-// You can write your code in this editor
 // Set sprite based on health level
 if (health_level == 5) {
     sprite_index = spr_health_5;

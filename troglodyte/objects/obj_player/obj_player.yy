@@ -12,7 +12,10 @@
     "name":"Objects",
     "path":"folders/Objects.yy",
   },
-  "parentObjectId":null,
+  "parentObjectId":{
+    "name":"obj_lifeform",
+    "path":"objects/obj_lifeform/obj_lifeform.yy",
+  },
   "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,
@@ -34,9 +37,6 @@
     "name":"main_chr_idle",
     "path":"sprites/main_chr_idle/main_chr_idle.yy",
   },
-  "spriteMaskId":{
-    "name":"main_collision_mask",
-    "path":"sprites/main_collision_mask/main_collision_mask.yy",
-  },
+  "spriteMaskId":null,
   "visible":true,
 }

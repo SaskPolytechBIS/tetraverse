@@ -1,25 +1,11 @@
-/// Momentum
-hSpeed = 0;  ///horizontal speed
-vSpeed = 0;	 ///vertical speed
-accel = 0.4; ///acceleration
-decel = 0.2; ///deceleration
+event_inherited();
+image_speed = 0.2; //sprite speed
+state = "move";
 
-/// gravity
-grav = 0.5;
-grav_max = 12;
+// Dependencies
+input = instance_create_layer(0, 0, "Instances", obj_input);
 
-/// Speed
-max_hSpeed = 2;
+camera_set_view_target(view_camera[0], id);
 
-/// jumping
-groundbuffer = 10;
-jumpheight = -10;
-jumpbuffer = 8;
-jumpheight_min = -4;
 
-/// Attack
-attack_cooldown = 0;
-attack_max = 10; // number of frames before we can do another attack
 
-// Make sure player starts with full health
-health_level = 5;

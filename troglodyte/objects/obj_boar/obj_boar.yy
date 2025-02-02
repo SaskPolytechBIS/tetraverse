@@ -13,8 +13,8 @@
     "path":"folders/Objects/Mobs.yy",
   },
   "parentObjectId":{
-    "name":"obj_hostile",
-    "path":"objects/obj_hostile/obj_hostile.yy",
+    "name":"obj_lifeform",
+    "path":"objects/obj_lifeform/obj_lifeform.yy",
   },
   "persistent":false,
   "physicsAngularDamping":0.1,
@@ -37,9 +37,6 @@
     "name":"Boar_Move",
     "path":"sprites/Boar_Move/Boar_Move.yy",
   },
-  "spriteMaskId":{
-    "name":"main_collision_mask",
-    "path":"sprites/main_collision_mask/main_collision_mask.yy",
-  },
+  "spriteMaskId":null,
   "visible":true,
 }
