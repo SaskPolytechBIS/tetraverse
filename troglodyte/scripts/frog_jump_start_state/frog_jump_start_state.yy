@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"frog_jump_start_state",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"frog_jump_start_state",
+  "parent":{
+    "name":"Frog",
+    "path":"folders/Scripts/Mobs/Frog.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

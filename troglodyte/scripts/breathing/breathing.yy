@@ -5,8 +5,8 @@
   "isDnD":false,
   "name":"breathing",
   "parent":{
-    "name":"Boar",
-    "path":"folders/Scripts/Mobs/Boar.yy",
+    "name":"Frog",
+    "path":"folders/Scripts/Mobs/Frog.yy",
   },
   "resourceType":"GMScript",
   "resourceVersion":"2.0",

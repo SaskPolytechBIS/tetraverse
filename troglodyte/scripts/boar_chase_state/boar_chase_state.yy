@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"boar_chase_state",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"boar_chase_state",
+  "parent":{
+    "name":"Boar",
+    "path":"folders/Scripts/Mobs/Boar.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}
