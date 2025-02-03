@@ -3,7 +3,7 @@
   "%Name":"Boar_Attack",
   "bboxMode":2,
   "bbox_bottom":73,
-  "bbox_left":39,
+  "bbox_left":30,
   "bbox_right":84,
   "bbox_top":50,
   "collisionKind":1,

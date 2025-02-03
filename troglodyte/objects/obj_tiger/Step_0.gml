@@ -65,6 +65,7 @@ switch (state)
 		
 		if animation_hit_frame(4)
 		{
+			audio_play_sound(sfx_Tiger_atk, 2, false);
 			create_hitbox(x, y, self, Tiger_Sprite_swipe_Damage, 4, 4, 5, image_xscale);
 		}
 		

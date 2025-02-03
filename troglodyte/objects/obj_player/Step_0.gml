@@ -56,10 +56,41 @@ switch (state)
 		#region Attack State
 		set_state_sprite(main_club_atk, 0.7, 0);
 		
-		if animation_hit_frame(2)
-		{
-			create_hitbox(x, y, self, main_club_atk_damage, 4, 4, 10, image_xscale);
-		}
+		//if animation_hit_frame(2)
+		//{
+			//audio_play_sound(sfx_club_miss, 2, false); // 2 = higher priority, false = don’t loop
+			//create_hitbox(x, y, self, main_club_atk_damage, 4, 4, 10, image_xscale);
+		//}
+		
+		// Only play attack sound once per animation
+	    if animation_hit_frame(2) // This frame is when the attack connects
+	    {
+	        var hitbox = create_hitbox(x, y, self, main_club_atk_damage, 4, 4, 10, image_xscale);
+
+	        // Debug: Confirm attack execution
+	        show_debug_message("Attack frame reached!");
+
+	        var attack_sound = sfx_club_miss; // Default to miss sound
+
+	        if instance_exists(hitbox)
+	        {
+	            var boar_hit = instance_place(hitbox.x, hitbox.y, obj_boar);
+	            var tiger_hit = instance_place(hitbox.x, hitbox.y, obj_tiger);
+
+	            if boar_hit != noone || tiger_hit != noone  // If enemy is hit
+	            {
+	                show_debug_message("Enemy hit detected!");
+	                attack_sound = sfx_club_hit_2; // Change to hit sound
+	            }
+	            else
+	            {
+	                show_debug_message("Attack missed!");
+	            }
+	        }
+
+	        // Move audio playback **outside the if-block** so it always runs
+	        audio_play_sound(sfx_club_miss, 1, false);
+	    }
 		
 		if animation_end()
 		{

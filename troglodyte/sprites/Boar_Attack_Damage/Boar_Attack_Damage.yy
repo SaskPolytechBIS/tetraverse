@@ -3,7 +3,7 @@
   "%Name":"Boar_Attack_Damage",
   "bboxMode":2,
   "bbox_bottom":43,
-  "bbox_left":0,
+  "bbox_left":1,
   "bbox_right":54,
   "bbox_top":21,
   "collisionKind":1,

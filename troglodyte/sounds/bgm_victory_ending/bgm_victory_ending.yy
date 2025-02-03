@@ -1,0 +1,25 @@
+{
+  "$GMSound":"",
+  "%Name":"bgm_victory_ending",
+  "audioGroupId":{
+    "name":"audiogroup_default",
+    "path":"audiogroups/audiogroup_default",
+  },
+  "bitDepth":1,
+  "bitRate":128,
+  "compression":0,
+  "conversionMode":0,
+  "duration":733.649,
+  "name":"bgm_victory_ending",
+  "parent":{
+    "name":"Credits and ending audio",
+    "path":"folders/Sounds/Credits and ending audio.yy",
+  },
+  "preload":false,
+  "resourceType":"GMSound",
+  "resourceVersion":"2.0",
+  "sampleRate":44100,
+  "soundFile":"bgm_victory_ending.mp3",
+  "type":0,
+  "volume":1.0,
+}
