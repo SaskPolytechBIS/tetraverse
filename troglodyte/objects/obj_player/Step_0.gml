@@ -180,3 +180,7 @@ if (hit_cooldown > 0) {
 
 #endregion
 
+if keyboard_check_pressed(ord("R"))
+{
+	game_restart();
+}

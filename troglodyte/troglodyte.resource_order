@@ -1,8 +1,8 @@
 {
   "FolderOrderSettings":[
     {"name":"Buttons","order":4,"path":"folders/Objects/Buttons.yy",},
-    {"name":"Unused objects","order":12,"path":"folders/Objects/Unused objects.yy",},
     {"name":"Mobs","order":2,"path":"folders/Objects/Mobs.yy",},
+    {"name":"Unused objects","order":12,"path":"folders/Objects/Unused objects.yy",},
     {"name":"Boss fight audio & sfx","order":3,"path":"folders/Sounds/Boss fight audio & sfx.yy",},
     {"name":"Credits and ending audio","order":9,"path":"folders/Sounds/Credits and ending audio.yy",},
     {"name":"Death sfx","order":2,"path":"folders/Sounds/Death sfx.yy",},
