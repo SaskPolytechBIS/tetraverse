@@ -56,7 +56,10 @@
     {"id":{"name":"rm_menu","path":"rooms/rm_menu/rm_menu.yy",},},
     {"id":{"name":"Boar_Attack","path":"sprites/Boar_Attack/Boar_Attack.yy",},},
     {"id":{"name":"Boar_Idle","path":"sprites/Boar_Idle/Boar_Idle.yy",},},
+<<<<<<< Updated upstream
     {"id":{"name":"Boar_Jump","path":"sprites/Boar_Jump/Boar_Jump.yy",},},
+=======
+>>>>>>> Stashed changes
     {"id":{"name":"Boar_Move","path":"sprites/Boar_Move/Boar_Move.yy",},},
     {"id":{"name":"club_image","path":"sprites/club_image/club_image.yy",},},
     {"id":{"name":"king_dance","path":"sprites/king_dance/king_dance.yy",},},
@@ -84,7 +87,11 @@
     {"id":{"name":"spr_tree_distant_2","path":"sprites/spr_tree_distant_2/spr_tree_distant_2.yy",},},
     {"id":{"name":"spr_trees_distant_1","path":"sprites/spr_trees_distant_1/spr_trees_distant_1.yy",},},
     {"id":{"name":"spr_trees_distant_3","path":"sprites/spr_trees_distant_3/spr_trees_distant_3.yy",},},
+<<<<<<< Updated upstream
     {"id":{"name":"Tiger_Skin","path":"sprites/Tiger_Skin/Tiger_Skin.yy",},},
+=======
+    {"id":{"name":"Sprite38","path":"sprites/Sprite38/Sprite38.yy",},},
+>>>>>>> Stashed changes
     {"id":{"name":"Tiger_Sprite_death","path":"sprites/Tiger_Sprite_death/Tiger_Sprite_death.yy",},},
     {"id":{"name":"Tiger_Sprite_idle","path":"sprites/Tiger_Sprite_idle/Tiger_Sprite_idle.yy",},},
     {"id":{"name":"Tiger_Sprite_swipe","path":"sprites/Tiger_Sprite_swipe/Tiger_Sprite_swipe.yy",},},

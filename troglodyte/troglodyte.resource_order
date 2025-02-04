@@ -20,7 +20,10 @@
     {"name":"rm_menu","order":1,"path":"rooms/rm_menu/rm_menu.yy",},
     {"name":"Boar_Attack","order":1,"path":"sprites/Boar_Attack/Boar_Attack.yy",},
     {"name":"Boar_Idle","order":6,"path":"sprites/Boar_Idle/Boar_Idle.yy",},
+<<<<<<< Updated upstream
     {"name":"Boar_Jump","order":7,"path":"sprites/Boar_Jump/Boar_Jump.yy",},
+=======
+>>>>>>> Stashed changes
     {"name":"king_dance","order":9,"path":"sprites/king_dance/king_dance.yy",},
     {"name":"main_chr_idle","order":2,"path":"sprites/main_chr_idle/main_chr_idle.yy",},
     {"name":"main_chr_jump","order":11,"path":"sprites/main_chr_jump/main_chr_jump.yy",},
@@ -36,7 +39,11 @@
     {"name":"spr_health_3","order":3,"path":"sprites/spr_health_3/spr_health_3.yy",},
     {"name":"spr_health_4","order":4,"path":"sprites/spr_health_4/spr_health_4.yy",},
     {"name":"spr_health_5","order":5,"path":"sprites/spr_health_5/spr_health_5.yy",},
+<<<<<<< Updated upstream
     {"name":"Tiger_Skin","order":9,"path":"sprites/Tiger_Skin/Tiger_Skin.yy",},
+=======
+    {"name":"Sprite38","order":7,"path":"sprites/Sprite38/Sprite38.yy",},
+>>>>>>> Stashed changes
     {"name":"Tiger_Sprite_death","order":2,"path":"sprites/Tiger_Sprite_death/Tiger_Sprite_death.yy",},
     {"name":"Tiger_Sprite_idle","order":3,"path":"sprites/Tiger_Sprite_idle/Tiger_Sprite_idle.yy",},
     {"name":"Tiger_Sprite_swipe","order":4,"path":"sprites/Tiger_Sprite_swipe/Tiger_Sprite_swipe.yy",},
