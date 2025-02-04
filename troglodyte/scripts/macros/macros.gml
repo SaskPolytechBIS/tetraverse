@@ -19,7 +19,7 @@ function macros() {
 //#macro SPAWN				4
 	//frog
 #macro	INHALE				1
-//#macro	HURT				2
+#macro	HURT				2
 
 	//bug
 //#macro	KNOCKEDBACK			3

@@ -9,5 +9,6 @@
 //		if flash_counter > flash_on_time * 2 flash_counter = 0;
 //	}
 //} else {
-	draw_self();	
+	draw_self();
+	draw_text(x, y, hp);
 //}

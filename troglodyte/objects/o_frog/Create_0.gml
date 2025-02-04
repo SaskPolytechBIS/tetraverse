@@ -1,4 +1,4 @@
-//event_inherited();
+event_inherited();
 //movement
 hsp = 0;
 max_hsp_initial = 2;
