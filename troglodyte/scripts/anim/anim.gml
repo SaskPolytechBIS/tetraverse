@@ -11,7 +11,7 @@ function anim(){
 			if !on_ground() sprite_index = s_player_air_attack; else 
 			//on ground
 			if hsp != 0	sprite_index = s_player_attack_walk else
-				sprite_index = s_player_attack;
+				sprite_index = s_player_attack_hitbox;
 		break;
 	}
 }
