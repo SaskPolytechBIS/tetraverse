@@ -65,7 +65,7 @@ switch (state)
 		if animation_hit_frame(1)
 		{
 			audio_play_sound(sfx_Boar_tackle, 2, false);
-			create_hitbox(x, y, self, Boar_Attack_Damage, 4, 4, 5, image_xscale);
+			create_hitbox(x, y, self, Boar_Attack_Damage, 4, 4, 1, image_xscale);
 		}
 		
 		if animation_end()

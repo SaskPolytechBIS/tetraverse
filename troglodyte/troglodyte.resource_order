@@ -1,10 +1,11 @@
 {
   "FolderOrderSettings":[
     {"name":"Buttons","order":4,"path":"folders/Objects/Buttons.yy",},
+    {"name":"Unused objects","order":12,"path":"folders/Objects/Unused objects.yy",},
     {"name":"Mobs","order":2,"path":"folders/Objects/Mobs.yy",},
     {"name":"Boss fight audio & sfx","order":3,"path":"folders/Sounds/Boss fight audio & sfx.yy",},
-    {"name":"Death sfx","order":2,"path":"folders/Sounds/Death sfx.yy",},
     {"name":"Credits and ending audio","order":9,"path":"folders/Sounds/Credits and ending audio.yy",},
+    {"name":"Death sfx","order":2,"path":"folders/Sounds/Death sfx.yy",},
     {"name":"Intro","order":4,"path":"folders/Sounds/Intro.yy",},
     {"name":"Item pick up sfx","order":5,"path":"folders/Sounds/Item pick up sfx.yy",},
     {"name":"Level 1 Jungle audio & sfx","order":6,"path":"folders/Sounds/Level 1 Jungle audio & sfx.yy",},

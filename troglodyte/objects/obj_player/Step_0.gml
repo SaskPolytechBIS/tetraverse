@@ -8,7 +8,7 @@ switch (state)
 		// press right key to move to the right
 		if input.right
 		{
-			move_collide(3, 0);
+			move_collide(4, 0);
 			image_xscale = 1;
 			sprite_index = main_chr_move;
 			image_speed = 0.2;
@@ -17,7 +17,7 @@ switch (state)
 		// press right key to move to the left
 		if input.left
 		{
-			move_collide(-3, 0);
+			move_collide(-4, 0);
 			image_xscale = -1;
 			sprite_index = main_chr_move;
 			image_speed = 0.2;
@@ -65,7 +65,7 @@ switch (state)
 		// Only play attack sound once per animation
 	    if animation_hit_frame(2) // This frame is when the attack connects
 	    {
-	        var hitbox = create_hitbox(x, y, self, main_club_atk_damage, 4, 4, 10, image_xscale);
+	        var hitbox = create_hitbox(x, y, self, main_club_atk_damage, 4, 5, 2, image_xscale);
 
 	        // Debug: Confirm attack execution
 	        show_debug_message("Attack frame reached!");
@@ -162,5 +162,21 @@ camera_set_view_pos(view_camera[0], cam_x, cam_y);
     //health -= 1; // Reduce health by 1 per hit
    // if health < 0 { health = 0; } // Prevent negative health
 //}
+#endregion
+
+#region Healthbar
+
+if (place_meeting(x, y, obj_boar)) { 
+    health_level -= 1; // Reduce health when hit
+    if (health_level < 0) {
+        health_level = 0; // Prevent negative health
+    }
+}
+
+// Reduce hit cooldown each step (if greater than 0)
+if (hit_cooldown > 0) {
+    hit_cooldown -= 1;
+}
+
 #endregion
 
