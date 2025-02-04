@@ -1,7 +1,7 @@
 hurt = false;
 hurt_time =  game_get_speed(gamespeed_fps) * 1.5;
 hp = 2;
-//flash_counter = 0;
+flash_counter = 0;
 
 ////slowdown
 //drag = 0.12;
