@@ -1,22 +1,17 @@
 {
   "$GMObject":"",
-  "%Name":"obj_tiger",
+  "%Name":"obj_tiger_meat",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":2,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"obj_tiger",
+  "name":"obj_tiger_meat",
   "overriddenProperties":[],
   "parent":{
     "name":"Mobs",
     "path":"folders/Objects/Mobs.yy",
   },
-  "parentObjectId":{
-    "name":"obj_lifeform",
-    "path":"objects/obj_lifeform/obj_lifeform.yy",
-  },
+  "parentObjectId":null,
   "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,
@@ -35,8 +30,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"Tiger_Sprite_idle",
-    "path":"sprites/Tiger_Sprite_idle/Tiger_Sprite_idle.yy",
+    "name":"Meat",
+    "path":"sprites/Meat/Meat.yy",
   },
   "spriteMaskId":null,
   "visible":true,

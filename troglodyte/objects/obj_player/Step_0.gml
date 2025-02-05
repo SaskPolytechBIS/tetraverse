@@ -166,21 +166,41 @@ camera_set_view_pos(view_camera[0], cam_x, cam_y);
 
 #region Healthbar
 
-if (place_meeting(x, y, obj_boar)) { 
-    health_level -= 1; // Reduce health when hit
-    if (health_level < 0) {
-        health_level = 0; // Prevent negative health
-    }
-}
-
 // Reduce hit cooldown each step (if greater than 0)
 if (hit_cooldown > 0) {
     hit_cooldown -= 1;
 }
 
+// Enemy collision - only allow damage if cooldown is over
+if (hit_cooldown <= 0) { 
+    if (instance_exists(obj_boar) && place_meeting(x, y, obj_boar)) { 
+        health_level -= 1;
+        hit_cooldown = 30; // 1-second cooldown
+        show_debug_message("Player hit by BOAR! Health: " + string(health_level));
+    }
+    
+    if (instance_exists(obj_tiger) && place_meeting(x, y, obj_tiger)) { 
+        health_level -= 1;
+        hit_cooldown = 30; // 1-second cooldown
+        show_debug_message("Player hit by TIGER! Health: " + string(health_level));
+    }
+
+    if (health_level < 0) {
+        health_level = 0; // Prevent negative health
+    }
+
+    if (health_level == 0) {
+        show_debug_message("Player is dead!");
+        instance_destroy(); // Destroy player when health reaches 0
+    }
+}
+
+
 #endregion
 
+#region Optional Force Restart
 if keyboard_check_pressed(ord("R"))
 {
 	game_restart();
 }
+#endregion

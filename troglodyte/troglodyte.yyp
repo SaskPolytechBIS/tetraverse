@@ -70,6 +70,7 @@
     {"id":{"name":"obj_lifeform","path":"objects/obj_lifeform/obj_lifeform.yy",},},
     {"id":{"name":"obj_menu_controller","path":"objects/obj_menu_controller/obj_menu_controller.yy",},},
     {"id":{"name":"obj_player","path":"objects/obj_player/obj_player.yy",},},
+    {"id":{"name":"obj_tiger_meat","path":"objects/obj_tiger_meat/obj_tiger_meat.yy",},},
     {"id":{"name":"obj_tiger","path":"objects/obj_tiger/obj_tiger.yy",},},
     {"id":{"name":"Jg_testing","path":"rooms/Jg_testing/Jg_testing.yy",},},
     {"id":{"name":"rm_credits","path":"rooms/rm_credits/rm_credits.yy",},},

@@ -1,0 +1,1 @@
+heal_amount = 3; // Amount of HP restored when collected
