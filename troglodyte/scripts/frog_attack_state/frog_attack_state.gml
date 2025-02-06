@@ -17,13 +17,13 @@ function frog_attack_state() {
 	}
 
 	if attack {
-	//	if image_index >= 5 and image_index <=6 {
-	//		//create hitbox		
-	//		var inst = instance_create_layer(x, y, "Enemy", o_frog_attack_hitbox);
-	//		//ensure hitbox faces the way the frog that created it is facing
-	//		inst.image_xscale = facing;
+		if image_index >= 5 and image_index <=6 {
+			//create hitbox		
+			var inst = instance_create_layer(x, y, "Mobs", obj_frog_attack_hitbox);
+			//ensure hitbox faces the way the frog that created it is facing
+			inst.image_xscale = facing;
 	//		if image_index == 5 audio_play_sound(snd_frog_attack, 15, false);
-	//	}
+		}
 	
 	//	//set tongue depth
 	//	depth = layer_get_depth(layer_get_id("Player")) - 1;

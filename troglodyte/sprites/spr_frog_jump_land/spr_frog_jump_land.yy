@@ -1,6 +1,6 @@
 {
   "$GMSprite":"",
-  "%Name":"s_frog_jump_land",
+  "%Name":"spr_frog_jump_land",
   "bboxMode":0,
   "bbox_bottom":63,
   "bbox_left":17,
@@ -23,7 +23,7 @@
   "layers":[
     {"$GMImageLayer":"","%Name":"2fed0385-15da-47aa-9419-55f0848ee167","blendMode":0,"displayName":"default","isLocked":false,"name":"2fed0385-15da-47aa-9419-55f0848ee167","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
   ],
-  "name":"s_frog_jump_land",
+  "name":"spr_frog_jump_land",
   "nineSlice":null,
   "origin":7,
   "parent":{
@@ -35,7 +35,7 @@
   "resourceVersion":"2.0",
   "sequence":{
     "$GMSequence":"",
-    "%Name":"s_frog_jump_land",
+    "%Name":"spr_frog_jump_land",
     "autoRecord":true,
     "backdropHeight":768,
     "backdropImageOpacity":0.5,
@@ -59,7 +59,7 @@
       "resourceType":"KeyframeStore<MomentsEventKeyframe>",
       "resourceVersion":"2.0",
     },
-    "name":"s_frog_jump_land",
+    "name":"spr_frog_jump_land",
     "playback":1,
     "playbackSpeed":8.0,
     "playbackSpeedType":0,
@@ -71,13 +71,13 @@
     "tracks":[
       {"$GMSpriteFramesTrack":"","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"$KeyframeStore<SpriteFrameKeyframe>":"","Keyframes":[
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"fe8f465f-5bd8-4d61-b423-dd5886ce6366","path":"sprites/s_frog_jump_land/s_frog_jump_land.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"fe8f465f-5bd8-4d61-b423-dd5886ce6366","path":"sprites/spr_frog_jump_land/spr_frog_jump_land.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
               },"Disabled":false,"id":"bccc85d2-42e5-4221-aa2d-138dde92e9ee","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"5df4252b-578e-495c-88d2-b700f55d8966","path":"sprites/s_frog_jump_land/s_frog_jump_land.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"5df4252b-578e-495c-88d2-b700f55d8966","path":"sprites/spr_frog_jump_land/spr_frog_jump_land.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
               },"Disabled":false,"id":"aa31526e-1fdf-4227-8ae4-01bcfc11bdc8","IsCreationKey":false,"Key":1.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"05583df7-f643-4a4c-9b0e-749baaefa2a0","path":"sprites/s_frog_jump_land/s_frog_jump_land.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"05583df7-f643-4a4c-9b0e-749baaefa2a0","path":"sprites/spr_frog_jump_land/spr_frog_jump_land.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
               },"Disabled":false,"id":"8e5d7ce3-1a05-4d34-9dc4-2dcc661af35a","IsCreationKey":false,"Key":2.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
           ],"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"2.0",},"modifiers":[],"name":"frames","resourceType":"GMSpriteFramesTrack","resourceVersion":"2.0","spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],

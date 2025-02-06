@@ -1,23 +1,19 @@
 {
   "$GMObject":"",
-  "%Name":"o_frog",
+  "%Name":"obj_frog_attack_hitbox",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":1,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":2,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":1,"eventType":2,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"o_frog",
+  "name":"obj_frog_attack_hitbox",
   "overriddenProperties":[],
   "parent":{
     "name":"Mobs",
     "path":"folders/Objects/Mobs.yy",
   },
-  "parentObjectId":{
-    "name":"obj_mobs_parent",
-    "path":"objects/obj_mobs_parent/obj_mobs_parent.yy",
-  },
+  "parentObjectId":null,
   "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,
@@ -36,12 +32,9 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_frog_idle",
-    "path":"sprites/spr_frog_idle/spr_frog_idle.yy",
+    "name":"spr_frog_attack_hitbox",
+    "path":"sprites/spr_frog_attack_hitbox/spr_frog_attack_hitbox.yy",
   },
-  "spriteMaskId":{
-    "name":"spr_frog_idle",
-    "path":"sprites/spr_frog_idle/spr_frog_idle.yy",
-  },
-  "visible":true,
+  "spriteMaskId":null,
+  "visible":false,
 }
