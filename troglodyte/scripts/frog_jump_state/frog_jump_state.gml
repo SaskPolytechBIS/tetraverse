@@ -1,7 +1,6 @@
 function frog_jump_state() {
-	//frog_jump_state
 	//check health
-	//check_enemy_hp();
+	check_enemy_hp();
 
 	////get inputs
 

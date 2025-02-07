@@ -1,7 +1,6 @@
 function frog_attack_state() {
-	//frog_attack_state
 	//check health
-	//check_enemy_hp();
+	check_enemy_hp();
 
 	//get inputs
 

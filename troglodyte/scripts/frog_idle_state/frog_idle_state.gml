@@ -1,7 +1,7 @@
 function frog_idle_state() {
 	//frog_idle_state
 	//check health
-	//check_enemy_hp();
+	check_enemy_hp();
 
 	//get inputs
 	breathing();

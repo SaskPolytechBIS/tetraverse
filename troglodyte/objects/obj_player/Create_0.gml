@@ -21,7 +21,7 @@ drag = .12
 facing = 1;
 
 //hurt
-flash_encounter = 0;
+flash_counter = 0;
 hurt = false;
 hurt_time = game_get_speed(gamespeed_fps);
 hp = 5;
@@ -48,7 +48,8 @@ enum states {
 	BLOCK,
 	CROUCH,
 	CROUCH_BLOCK,
-	HURTING
+	HURTING,
+	KNOCKBACK
 }
 
 state = states.IDLE;
@@ -62,6 +63,7 @@ states_array[states.BLOCK]			= player_block_state;
 states_array[states.CROUCH]			= player_crouch_state;
 states_array[states.CROUCH_BLOCK]	= player_crouch_block_state;
 states_array[states.HURTING]		= player_hurting_state;
+states_array[states.KNOCKBACK]		= player_knockback_state;
 
 //create sprites array
 sprites_array[states.IDLE]			= s_player_idle;
@@ -72,7 +74,7 @@ sprites_array[states.BLOCK]			= s_player_block;
 sprites_array[states.CROUCH]		= s_player_block;	// todo: need design, if time allows
 sprites_array[states.CROUCH_BLOCK]	= s_player_block;	// todo: need design, if time allows
 sprites_array[states.HURTING]		= s_player_block;	// todo: need design, if time allows
-
+sprites_array[states.KNOCKBACK]		= s_player_block;	// todo: need design, if time allows
 
 //create mask array
 mask_array[states.IDLE]			= s_player_idle;
@@ -83,3 +85,4 @@ mask_array[states.BLOCK]		= s_player_idle;
 mask_array[states.CROUCH]		= s_player_block;
 mask_array[states.CROUCH_BLOCK]	= s_player_block;
 mask_array[states.HURTING]		= s_player_idle;
+mask_array[states.KNOCKBACK]		= s_player_idle;
