@@ -108,6 +108,7 @@
     {"id":{"name":"player_knockback_state","path":"scripts/player_knockback_state/player_knockback_state.yy",},},
     {"id":{"name":"player_walk_state","path":"scripts/player_walk_state/player_walk_state.yy",},},
     {"id":{"name":"process_enemy_attack","path":"scripts/process_enemy_attack/process_enemy_attack.yy",},},
+    {"id":{"name":"Health_Bar","path":"sprites/Health_Bar/Health_Bar.yy",},},
     {"id":{"name":"main_chr_move_speer","path":"sprites/main_chr_move_speer/main_chr_move_speer.yy",},},
     {"id":{"name":"main_speer_atk","path":"sprites/main_speer_atk/main_speer_atk.yy",},},
     {"id":{"name":"s_player_attack_hitbox","path":"sprites/s_player_attack_hitbox/s_player_attack_hitbox.yy",},},
