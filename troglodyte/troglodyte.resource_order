@@ -1,8 +1,8 @@
 {
   "FolderOrderSettings":[
     {"name":"Buttons","order":4,"path":"folders/Objects/Buttons.yy",},
-    {"name":"Objects","order":10,"path":"folders/Objects/Objects.yy",},
     {"name":"Mobs","order":2,"path":"folders/Objects/Mobs.yy",},
+    {"name":"Objects","order":10,"path":"folders/Objects/Objects.yy",},
     {"name":"Player","order":8,"path":"folders/Objects/Player.yy",},
     {"name":"Mobs","order":8,"path":"folders/Scripts/Mobs.yy",},
     {"name":"Frog","order":2,"path":"folders/Scripts/Mobs/Frog.yy",},
@@ -75,6 +75,10 @@
     {"name":"s_player_dust_land","order":9,"path":"sprites/s_player_dust_land/s_player_dust_land.yy",},
     {"name":"s_player_idle","order":2,"path":"sprites/s_player_idle/s_player_idle.yy",},
     {"name":"s_player_jump","order":7,"path":"sprites/s_player_jump/s_player_jump.yy",},
+    {"name":"spr_boar_idle","order":3,"path":"sprites/spr_boar_idle/spr_boar_idle.yy",},
+    {"name":"spr_boar_jump_air","order":4,"path":"sprites/spr_boar_jump_air/spr_boar_jump_air.yy",},
+    {"name":"spr_boar_jump_land","order":5,"path":"sprites/spr_boar_jump_land/spr_boar_jump_land.yy",},
+    {"name":"spr_boar_jump_start","order":6,"path":"sprites/spr_boar_jump_start/spr_boar_jump_start.yy",},
     {"name":"spr_boar_walk","order":1,"path":"sprites/spr_boar_walk/spr_boar_walk.yy",},
     {"name":"spr_btn_credits","order":1,"path":"sprites/spr_btn_credits/spr_btn_credits.yy",},
     {"name":"spr_btn_newgame","order":2,"path":"sprites/spr_btn_newgame/spr_btn_newgame.yy",},
