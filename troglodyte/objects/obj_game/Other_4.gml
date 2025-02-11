@@ -1,4 +1,4 @@
-/// @description Insert description here
+
 // tiles
 // get the tile map
 global.map = layer_tilemap_get_id("Collisions");

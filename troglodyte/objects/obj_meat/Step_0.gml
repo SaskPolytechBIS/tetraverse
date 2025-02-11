@@ -19,7 +19,7 @@ if t1 == SOLID {
 }
 
 //destroy gem if falls out of room
-if y > room_height instance_destroy();
+if die or y > room_height instance_destroy();
 
 //generate sparks
 //if die {

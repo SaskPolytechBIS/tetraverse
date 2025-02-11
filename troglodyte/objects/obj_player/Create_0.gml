@@ -20,6 +20,9 @@ drag = .12
 // facing direction
 facing = 1;
 
+// meat
+meat = 0;
+
 //hurt
 flash_counter = 0;
 hurt = false;

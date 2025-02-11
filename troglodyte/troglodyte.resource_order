@@ -1,8 +1,8 @@
 {
   "FolderOrderSettings":[
     {"name":"Buttons","order":4,"path":"folders/Objects/Buttons.yy",},
-    {"name":"Objects","order":10,"path":"folders/Objects/Objects.yy",},
     {"name":"Mobs","order":2,"path":"folders/Objects/Mobs.yy",},
+    {"name":"Objects","order":10,"path":"folders/Objects/Objects.yy",},
     {"name":"Player","order":8,"path":"folders/Objects/Player.yy",},
     {"name":"Mobs","order":8,"path":"folders/Scripts/Mobs.yy",},
     {"name":"Frog","order":2,"path":"folders/Scripts/Mobs/Frog.yy",},
