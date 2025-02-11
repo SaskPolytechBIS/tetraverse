@@ -28,6 +28,7 @@ flash_counter = 0;
 hurt = false;
 hurt_time = game_get_speed(gamespeed_fps);
 hp = 5;
+max_hp = hp;
 
 // movement
 left = 0;
