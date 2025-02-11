@@ -66,6 +66,7 @@
     {"name":"player_knockback_state","order":11,"path":"scripts/player_knockback_state/player_knockback_state.yy",},
     {"name":"player_walk_state","order":1,"path":"scripts/player_walk_state/player_walk_state.yy",},
     {"name":"process_enemy_attack","order":7,"path":"scripts/process_enemy_attack/process_enemy_attack.yy",},
+    {"name":"Health_Bar","order":6,"path":"sprites/Health_Bar/Health_Bar.yy",},
     {"name":"main_chr_move_speer","order":3,"path":"sprites/main_chr_move_speer/main_chr_move_speer.yy",},
     {"name":"main_speer_atk","order":4,"path":"sprites/main_speer_atk/main_speer_atk.yy",},
     {"name":"s_player_attack_hitbox","order":1,"path":"sprites/s_player_attack_hitbox/s_player_attack_hitbox.yy",},
