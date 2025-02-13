@@ -22,12 +22,12 @@
       ],"layers":[],"name":"Mobs","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
     {"$GMRInstanceLayer":"","%Name":"Meat","depth":-200,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[],"layers":[],"name":"Meat","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
     {"$GMRInstanceLayer":"","%Name":"Dust","depth":-100,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[],"layers":[],"name":"Dust","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
-    {"$GMRTileLayer":"","%Name":"Collisions","depth":0,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"Collisions","properties":[],"resourceType":"GMRTileLayer","resourceVersion":"2.0","tiles":{"SerialiseHeight":12,"SerialiseWidth":45,"TileCompressedData":[
+    {"$GMRTileLayer":"","%Name":"Collisions","depth":0,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"Collisions","properties":[],"resourceType":"GMRTileLayer","resourceVersion":"2.0","tiles":{"SerialiseHeight":23,"SerialiseWidth":45,"TileCompressedData":[
           -186,-2147483648,1,0,-6,-2147483648,1,0,-37,-2147483648,1,0,-6,-2147483648,1,0,-37,-2147483648,1,0,-6,
           -2147483648,1,0,-37,-2147483648,1,0,-6,-2147483648,1,0,-37,-2147483648,6,0,-2147483648,0,0,-2147483648,
-          -2147483648,-5,1,-2,-2147483648,-2,1,-24,-2147483648,-135,1,
+          -2147483648,-5,1,-2,-2147483648,-2,1,-24,-2147483648,-135,1,-495,-2147483648,
         ],"TileDataFormat":1,},"tilesetId":{"name":"t_collisions","path":"tilesets/t_collisions/t_collisions.yy",},"userdefinedDepth":false,"visible":false,"x":0,"y":0,},
-    {"$GMRTileLayer":"","%Name":"Tile_mid","depth":100,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"Tile_mid","properties":[],"resourceType":"GMRTileLayer","resourceVersion":"2.0","tiles":{"SerialiseHeight":23,"SerialiseWidth":90,"TileCompressedData":[
+    {"$GMRTileLayer":"","%Name":"Tile_mid","depth":100,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"Tile_mid","properties":[],"resourceType":"GMRTileLayer","resourceVersion":"2.0","tiles":{"SerialiseHeight":45,"SerialiseWidth":90,"TileCompressedData":[
           -1530,-2147483648,540,1,2,3,4,5,6,1,2,3,4,5,6,1,2,3,4,5,6,1,2,3,4,5,6,1,2,3,4,5,6,1,2,3,4,5,6,1,2,3,
           4,5,6,1,2,3,4,5,6,1,2,3,4,5,6,1,2,3,4,5,6,1,2,3,4,5,6,1,2,3,4,5,6,1,2,3,4,5,6,1,2,3,4,5,6,1,2,3,4,5,
           6,8,9,10,11,12,13,8,9,10,11,12,13,8,9,10,11,12,13,8,9,10,11,12,13,8,9,10,11,12,13,8,9,10,11,12,13,8,
@@ -43,11 +43,12 @@
           29,30,31,32,33,34,29,30,31,32,33,34,15,16,17,18,19,20,15,16,17,18,19,20,15,16,17,18,19,20,15,16,17,18,
           19,20,15,16,17,18,19,20,15,16,17,18,19,20,15,16,17,18,19,20,15,16,17,18,19,20,15,16,17,18,19,20,15,16,
           17,18,19,20,15,16,17,18,19,20,15,16,17,18,19,20,15,16,17,18,19,20,15,16,17,18,19,20,15,16,17,18,19,20,
+          -1980,-2147483648,
         ],"TileDataFormat":1,},"tilesetId":{"name":"ts_jungle","path":"tilesets/ts_jungle/ts_jungle.yy",},"userdefinedDepth":false,"visible":true,"x":0,"y":0,},
-    {"$GMRTileLayer":"","%Name":"Tile_back","depth":200,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"Tile_back","properties":[],"resourceType":"GMRTileLayer","resourceVersion":"2.0","tiles":{"SerialiseHeight":23,"SerialiseWidth":90,"TileCompressedData":[
+    {"$GMRTileLayer":"","%Name":"Tile_back","depth":200,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"Tile_back","properties":[],"resourceType":"GMRTileLayer","resourceVersion":"2.0","tiles":{"SerialiseHeight":45,"SerialiseWidth":90,"TileCompressedData":[
           -1370,-2147483648,-4,0,10,1,2,3,4,5,6,1,2,3,4,-4,-2147483648,4,1,2,3,4,-68,-2147483648,-4,0,10,8,9,10,
           11,12,13,8,9,10,11,-4,-2147483648,4,8,9,10,11,-68,-2147483648,-4,0,10,15,16,17,18,19,20,15,16,17,18,
-          -4,-2147483648,4,15,16,17,18,-68,-2147483648,-6,0,-424,-2147483648,
+          -4,-2147483648,4,15,16,17,18,-68,-2147483648,-6,0,-2404,-2147483648,
         ],"TileDataFormat":1,},"tilesetId":{"name":"ts_jungle","path":"tilesets/ts_jungle/ts_jungle.yy",},"userdefinedDepth":false,"visible":true,"x":0,"y":0,},
     {"$GMRBackgroundLayer":"","%Name":"bg_parallax_trees_distant_1","animationFPS":30.0,"animationSpeedType":0,"colour":4294967295,"depth":300,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"hspeed":0.0,"htiled":true,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"bg_parallax_trees_distant_1","properties":[],"resourceType":"GMRBackgroundLayer","resourceVersion":"2.0","spriteId":{"name":"spr_trees_distant_1","path":"sprites/spr_trees_distant_1/spr_trees_distant_1.yy",},"stretch":false,"userdefinedAnimFPS":false,"userdefinedDepth":false,"visible":true,"vspeed":0.0,"vtiled":false,"x":0,"y":120,},
     {"$GMRBackgroundLayer":"","%Name":"bg_parallax_trees_distant_2","animationFPS":30.0,"animationSpeedType":0,"colour":4294967295,"depth":400,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"hspeed":0.0,"htiled":true,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"bg_parallax_trees_distant_2","properties":[],"resourceType":"GMRBackgroundLayer","resourceVersion":"2.0","spriteId":{"name":"spr_tree_distant_2","path":"sprites/spr_tree_distant_2/spr_tree_distant_2.yy",},"stretch":false,"userdefinedAnimFPS":false,"userdefinedDepth":false,"visible":true,"vspeed":0.0,"vtiled":false,"x":0,"y":100,},
@@ -72,7 +73,7 @@
   "resourceType":"GMRoom",
   "resourceVersion":"2.0",
   "roomSettings":{
-    "Height":360,
+    "Height":720,
     "inheritRoomSettings":false,
     "persistent":false,
     "Width":1440,
