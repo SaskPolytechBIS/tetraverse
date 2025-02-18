@@ -29,11 +29,11 @@ var gw = display_get_gui_width();
 
 //		//HP bar
 //		#region
-		xx = 148;
-		yy = 55;
+		xx = 16;
+		yy = 30;
 		draw_sprite(spr_hp_bar, 1, xx, yy);
 		draw_sprite_ext(spr_hp_bar, 2, xx, yy, obj_player.hp/obj_player.max_hp, 1, 0, c_white, image_alpha);
-		draw_sprite(spr_hp_bar, 1, xx, yy);
+		draw_sprite(spr_hp_bar, 0, xx - 32, yy - 5);
 //		#endregion
 
 //		//lives
