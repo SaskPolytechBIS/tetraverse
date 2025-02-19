@@ -67,6 +67,7 @@
     {"name":"process_enemy_attack","order":7,"path":"scripts/process_enemy_attack/process_enemy_attack.yy",},
     {"name":"Cave_Background","order":6,"path":"sprites/Cave_Background/Cave_Background.yy",},
     {"name":"Health_Bar","order":6,"path":"sprites/Health_Bar/Health_Bar.yy",},
+    {"name":"Ice_Cave_Background","order":7,"path":"sprites/Ice_Cave_Background/Ice_Cave_Background.yy",},
     {"name":"main_chr_move_speer","order":3,"path":"sprites/main_chr_move_speer/main_chr_move_speer.yy",},
     {"name":"main_speer_atk","order":4,"path":"sprites/main_speer_atk/main_speer_atk.yy",},
     {"name":"s_player_attack_hitbox","order":1,"path":"sprites/s_player_attack_hitbox/s_player_attack_hitbox.yy",},
