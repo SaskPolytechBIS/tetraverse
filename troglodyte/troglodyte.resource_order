@@ -96,6 +96,7 @@
     {"name":"spr_health_4","order":4,"path":"sprites/spr_health_4/spr_health_4.yy",},
     {"name":"spr_health_5","order":5,"path":"sprites/spr_health_5/spr_health_5.yy",},
     {"name":"spr_hp_bar","order":6,"path":"sprites/spr_hp_bar/spr_hp_bar.yy",},
+    {"name":"Sprite52","order":1,"path":"sprites/Sprite52/Sprite52.yy",},
     {"name":"Tiger_Sprite_idle","order":1,"path":"sprites/Tiger_Sprite_idle/Tiger_Sprite_idle.yy",},
     {"name":"Tiger_Sprite_swipe","order":2,"path":"sprites/Tiger_Sprite_swipe/Tiger_Sprite_swipe.yy",},
     {"name":"Tiger_Sprite_walk","order":3,"path":"sprites/Tiger_Sprite_walk/Tiger_Sprite_walk.yy",},
