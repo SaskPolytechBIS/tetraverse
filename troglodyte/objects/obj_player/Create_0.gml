@@ -16,6 +16,12 @@ jumps = jumps_initial;
 
 //friction
 drag = .12
+// stretching
+scale_x = 1;
+scale_y = 1;
+scale_min = 0.75;
+scale_max = 1.25;
+scale_decay = 0.2;
 
 // facing direction
 facing = 1;
@@ -23,12 +29,25 @@ facing = 1;
 // meat
 meat = 0;
 
+// set rm_game start position
+room_start_pos_x = 48;
+room_start_post_y = 210;
+room_start_facing = 1;
+x = room_start_pos_x;
+y = room_start_post_y;
+// facing direction
+facing = room_start_facing;
+
 //hurt
 flash_counter = 0;
 hurt = false;
 hurt_time = game_get_speed(gamespeed_fps);
 hp = 5;
 max_hp = hp;
+
+// lives
+lives_initial = 3;
+lives = lives_initial;
 
 // movement
 left = 0;
@@ -53,7 +72,8 @@ enum states {
 	CROUCH,
 	CROUCH_BLOCK,
 	HURTING,
-	KNOCKBACK
+	KNOCKBACK,
+//	DIE
 }
 
 state = states.IDLE;
@@ -68,6 +88,7 @@ states_array[states.CROUCH]			= player_crouch_state;
 states_array[states.CROUCH_BLOCK]	= player_crouch_block_state;
 states_array[states.HURTING]		= player_hurting_state;
 states_array[states.KNOCKBACK]		= player_knockback_state;
+///states_array[states.DIE]			= player_die_state;
 
 //create sprites array
 sprites_array[states.IDLE]			= s_player_idle;
@@ -79,6 +100,7 @@ sprites_array[states.CROUCH]		= s_player_block;	// todo: need design, if time al
 sprites_array[states.CROUCH_BLOCK]	= s_player_block;	// todo: need design, if time allows
 sprites_array[states.HURTING]		= s_player_block;	// todo: need design, if time allows
 sprites_array[states.KNOCKBACK]		= s_player_block;	// todo: need design, if time allows
+//sprites_array[states.DIE]			= s_player_block;	// todo: need design, if time allows
 
 //create mask array
 mask_array[states.IDLE]			= s_player_idle;
@@ -89,4 +111,5 @@ mask_array[states.BLOCK]		= s_player_idle;
 mask_array[states.CROUCH]		= s_player_block;
 mask_array[states.CROUCH_BLOCK]	= s_player_block;
 mask_array[states.HURTING]		= s_player_idle;
-mask_array[states.KNOCKBACK]		= s_player_idle;
+mask_array[states.KNOCKBACK]	= s_player_idle;
+//mask_array[states.DIE]			= s_player_idle;

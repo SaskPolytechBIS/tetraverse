@@ -8,6 +8,9 @@ function player_jump_state(){
 	
 	//check state
 	if on_ground() {
+		//apply stretch
+		scale_x = scale_max;
+		scale_y = scale_min;
 		if hsp != 0 state = states.WALK else state = states.IDLE;
 		//create dust if landing
 		if vsp > 0 {
@@ -30,6 +33,9 @@ function player_jump_state(){
 
 	//apply movement
 	collision();
+	
+	//check player hp
+//	check_player_hp();
  
 	//Apply animations
 	anim();

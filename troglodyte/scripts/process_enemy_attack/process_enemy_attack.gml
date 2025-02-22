@@ -11,7 +11,7 @@ function process_enemy_attack(argument0, argument1) {
 	if hk = -1 hk = 4;
 	if bk = -1 bk = 2.5;
 		
-	if !hurt {
+	if obj_player.hp > 0 and !hurt {
 		if !block or (block and sign(x - other.x) == facing) {
 			hurt = true;
 		

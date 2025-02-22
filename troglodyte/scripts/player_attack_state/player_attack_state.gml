@@ -29,6 +29,9 @@ function player_attack_state(){
 	
 	//apply movement
 	collision();
+	
+	//check player hp
+//	check_player_hp();
 
 	//apply animations
 	anim();

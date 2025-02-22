@@ -1,12 +1,12 @@
 {
   "$GMScript":"v1",
-  "%Name":"anim",
+  "%Name":"scr_screen_shake",
   "isCompatibility":false,
   "isDnD":false,
-  "name":"anim",
+  "name":"scr_screen_shake",
   "parent":{
-    "name":"Player",
-    "path":"folders/Scripts/Player.yy",
+    "name":"Scripts",
+    "path":"folders/Scripts.yy",
   },
   "resourceType":"GMScript",
   "resourceVersion":"2.0",

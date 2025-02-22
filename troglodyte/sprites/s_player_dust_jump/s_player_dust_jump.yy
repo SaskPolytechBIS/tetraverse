@@ -27,7 +27,7 @@
   ],
   "name":"s_player_dust_jump",
   "nineSlice":null,
-  "origin":1,
+  "origin":9,
   "parent":{
     "name":"Player",
     "path":"folders/Sprites/Player.yy",
@@ -92,7 +92,7 @@
     "visibleRange":null,
     "volume":1.0,
     "xorigin":32,
-    "yorigin":0,
+    "yorigin":39,
   },
   "swatchColours":null,
   "swfPrecision":0.5,

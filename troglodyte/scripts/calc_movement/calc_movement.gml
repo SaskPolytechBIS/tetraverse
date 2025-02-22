@@ -15,4 +15,8 @@ function calc_movement(){
 
     // Limit horizontal speed
     hsp = min(abs(hsp), max_hsp) * facing;
+	
+	// stop stretch
+	scale_x = lerp(scale_x, 1, scale_decay);
+	scale_y  = lerp(scale_y, 1, scale_decay);
 }

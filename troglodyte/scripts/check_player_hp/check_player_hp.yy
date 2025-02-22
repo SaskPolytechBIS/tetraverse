@@ -1,9 +1,9 @@
 {
   "$GMScript":"v1",
-  "%Name":"anim",
+  "%Name":"check_player_hp",
   "isCompatibility":false,
   "isDnD":false,
-  "name":"anim",
+  "name":"check_player_hp",
   "parent":{
     "name":"Player",
     "path":"folders/Scripts/Player.yy",
