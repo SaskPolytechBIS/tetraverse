@@ -1,6 +1,6 @@
 ////720x360
 ////get gui dimensions
-var gw = display_get_gui_width();
+	var gw = display_get_gui_width();
 //var gh = display_get_gui_height();
 
 //if room != rm_menu {
@@ -13,18 +13,18 @@ var gw = display_get_gui_width();
 		var _col = make_color_rgb(173, 144, 159);
 		draw_set_color(_col);
 
-		//set draw location
+		//set draw location - DELETED
 		var xx = gw - 92;
 		var yy = 2;
-		draw_sprite(spr_health_1, 0, xx, yy);
+		//draw_sprite(spr_health_1, 0, xx, yy);
 
-		//text
-		var text_xx = 7;
-		var text_yy = 22;
-		draw_set_color(c_black);
-		draw_text(xx + text_xx + 1, yy + text_yy + 1, obj_player.meat);
-		draw_set_color(_col);
-		draw_text(xx + text_xx, yy + text_yy, obj_player.meat);
+		//text - counter for gems/meat
+		//var text_xx = -20;
+		//var text_yy = 24;
+		//draw_set_color(c_black);
+		//draw_text(xx + text_xx + 1, yy + text_yy + 1, obj_player.meat);
+		//draw_set_color(_col);
+		//draw_text(xx + text_xx, yy + text_yy, obj_player.meat);
 //		#endregion
 
 //		//HP bar
@@ -39,13 +39,16 @@ var gw = display_get_gui_width();
 
 //		//lives
 		#region
-		xx = 48;
-		yy = 32;
-		var gap = 22;
+		// Position in the top-right corner of the camera view
+		xx = gw - 92;
+		yy = 16;
+		var gap = 24;
+		var scale = 1.5;
 		if lives > 0 {
 			//draw number of lives
 			for (var i = 0; i < lives; i++) {
-				draw_sprite(spr_lives, 0, xx + i * gap, yy);
+				//draw_sprite(spr_lives, 0, xx + i * gap, yy);
+				draw_sprite_ext(spr_lives, 0, xx + i * gap, yy, scale, scale, 0, c_white, 1);
 			}
 		}
 		#endregion

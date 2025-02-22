@@ -1,12 +1,12 @@
 function check_enemy_hp() {
 	//die
 	if hp <= 0 {
-	//	//hp drop
-	//	var _chance = random(1);
-	//	if _chance <= hp_drop_chance {
-	//		instance_create_layer(x, bbox_top, "Gems", o_hp);
+		//hp drop
+		var _chance = random(1);
+		if _chance <= hp_drop_chance {
+			instance_create_layer(x, bbox_top, "Meat", obj_meat);
 	//		audio_play_sound(snd_hp_spawning, 15, false);
-	//	}
+		}
 	//	//play death sound
 	//	audio_play_sound(snd_enemy_dying, 10, false);
 	//	//play gem spawn sound once
