@@ -45,7 +45,7 @@ var gw = display_get_gui_width();
 		if lives > 0 {
 			//draw number of lives
 			for (var i = 0; i < lives; i++) {
-				draw_sprite(spr_health_5, 0, xx + i * gap, yy);
+				draw_sprite(spr_lives, 0, xx + i * gap, yy);
 			}
 		}
 		#endregion
