@@ -16,13 +16,13 @@ function player_die_state() {
 		image_speed = 0;
 		get_input();		
 		if jump or attack {		
-			//if lives <= 0 {
-			//	game_restart();
-			//} else {
+			if lives <= 0 {
+				game_restart();
+			} else {
 				room_restart();
 				//reset player
 				x = room_start_pos_x;
-				y = roomt_start_pos_y;
+				y = room_start_pos_y;
 				facing = room_start_facing;
 				state = states.IDLE;
 				//reset speed after death pause
@@ -38,7 +38,7 @@ function player_die_state() {
 					//reset camera pan speed
 					alarm[CAMERA_RESET] = 3;
 				}
-			//}
+			}
 		}
 	}
 

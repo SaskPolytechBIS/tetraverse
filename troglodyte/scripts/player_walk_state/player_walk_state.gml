@@ -42,7 +42,7 @@ function player_walk_state(){
 	collision();
 	
 	//check player hp
-//	check_player_hp();
+	check_player_hp();
 
 	//apply animations
 	anim();

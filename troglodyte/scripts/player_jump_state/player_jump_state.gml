@@ -35,7 +35,7 @@ function player_jump_state(){
 	collision();
 	
 	//check player hp
-//	check_player_hp();
+	check_player_hp();
  
 	//Apply animations
 	anim();
