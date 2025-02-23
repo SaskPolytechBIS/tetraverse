@@ -12,6 +12,7 @@
   ],
   "isDnd":false,
   "layers":[
+    {"$GMRInstanceLayer":"","%Name":"Fade","depth":-600,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[],"layers":[],"name":"Fade","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
     {"$GMRInstanceLayer":"","%Name":"Control","depth":-500,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[],"layers":[],"name":"Control","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
     {"$GMRInstanceLayer":"","%Name":"Player","depth":-400,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[
         {"$GMRInstance":"v1","%Name":"inst_76F4391D","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_76F4391D","objectId":{"name":"obj_player","path":"objects/obj_player/obj_player.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":48.0,"y":210.0,},
@@ -23,10 +24,10 @@
     {"$GMRInstanceLayer":"","%Name":"Meat","depth":-200,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[],"layers":[],"name":"Meat","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
     {"$GMRInstanceLayer":"","%Name":"Dust","depth":-100,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[],"layers":[],"name":"Dust","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
     {"$GMRTileLayer":"","%Name":"Collisions","depth":0,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":true,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"Collisions","properties":[],"resourceType":"GMRTileLayer","resourceVersion":"2.0","tiles":{"SerialiseHeight":23,"SerialiseWidth":90,"TileCompressedData":[
-          -990,-2147483648,1,1,-89,-2147483648,1,1,-89,-2147483648,1,1,-89,-2147483648,1,1,-89,-2147483648,1,1,
-          -89,-2147483648,1,1,-55,-2147483648,-17,1,-17,-2147483648,1,1,-38,-2147483648,-18,1,-15,0,-7,1,-11,-2147483648,
-          -40,1,-34,0,-4,-2147483648,-5,1,-2,-2147483648,-5,1,-76,0,-14,-2147483648,-77,0,-13,-2147483648,-77,
-          0,-13,-2147483648,-76,0,-14,-2147483648,
+          -990,-2147483648,1,1,-88,-2147483648,-2,1,-88,-2147483648,-2,1,-88,-2147483648,-2,1,-88,-2147483648,
+          -2,1,-88,-2147483648,-2,1,-55,-2147483648,-17,1,-16,-2147483648,-2,1,-38,-2147483648,-18,1,-15,0,-7,
+          1,-10,-2147483648,-41,1,-34,0,-4,-2147483648,-5,1,-2,-2147483648,-5,1,-76,0,-14,-2147483648,-77,0,-13,
+          -2147483648,-77,0,-13,-2147483648,-76,0,-14,-2147483648,
         ],"TileDataFormat":1,},"tilesetId":{"name":"t_collisions","path":"tilesets/t_collisions/t_collisions.yy",},"userdefinedDepth":false,"visible":false,"x":0,"y":0,},
     {"$GMRTileLayer":"","%Name":"Tile_mid","depth":100,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"Tile_mid","properties":[],"resourceType":"GMRTileLayer","resourceVersion":"2.0","tiles":{"SerialiseHeight":23,"SerialiseWidth":90,"TileCompressedData":[
           -1523,-2147483648,-2,0,-5,-2147483648,450,20,21,22,23,24,19,20,21,22,23,24,19,20,21,22,23,24,19,20,21,

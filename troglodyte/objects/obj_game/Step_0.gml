@@ -1,6 +1,6 @@
-//if mouse_check_button_pressed(mb_right) {
-//	obj_player.hp = 0;
-//}
+if mouse_check_button_pressed(mb_right) {
+	if instance_exists(obj_player) obj_player.hp = 0;
+}
 
 if game_over_lose {
 	with(obj_player) {
