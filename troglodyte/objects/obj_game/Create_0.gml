@@ -11,6 +11,12 @@ gem_sparks = 6;
 //how many sparks come off dead enemies
 enemy_sparks = 6;
 
+// game over and lost
+game_over_lose = false;
+
+// game over and won
+game_over_won = false;
+
 
 
 
