@@ -28,6 +28,7 @@ facing = 1;
 
 // meat
 meat = 0;
+meat_value = 50;
 
 // set rm_game start position
 room_start_pos_x = 48;
@@ -48,6 +49,7 @@ max_hp = hp;
 // lives
 lives_initial = 3;
 lives = lives_initial;
+lives_value = 1000;
 
 // movement
 left = 0;

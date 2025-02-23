@@ -1,7 +1,7 @@
 ////720x360
 ////get gui dimensions
 	var gw = display_get_gui_width();
-//var gh = display_get_gui_height();
+	var gh = display_get_gui_height();
 
 //if room != rm_menu {
 //	if room != rm_game_end {
@@ -68,32 +68,33 @@
 //	draw_text(xx + text_xx, yy + text_yy, score);
 //	#endregion
 //	}
-//	//game over
+	//game over
 //	#region
-//	if game_over_lose or (game_over_won and game_over_won_delay <= 0) {
-//		//center gui
+	if game_over_lose or (game_over_won and game_over_won_delay <= 0) {
+		//center gui
 //		if game_over_won {
 //			var mx = gw/4;
 //			var my = gh/2;
 //		} else {
-//			//game over lose
-//			var mx = gw/2;
-//			var my = gh/2;
+			//game over lose
+			var mx = gw / 2;
+			var my = gh / 2;
 //		}
-//		//draw game over
-//		draw_sprite(s_game_over, 0, mx, my);
+
+		//draw game over
+		//draw_sprite_ext(spr_game_over, 0, draw_x, draw_y, scale, scale, 0, c_white, 1);
+		draw_sprite_ext(spr_game_over, 0, mx, my, 2, 2, 0, c_white, 1);
 //		if game_over_lose var _index = 0 else var _index = 1;
-//		draw_sprite(s_game_over_text, _index, mx, my);
-//		draw_set_halign(fa_right);
-//		draw_set_color(c_white);
-	
-//		//create array of text to output
+		draw_sprite(spr_game_over_text, 0, mx, my);
+			
+
+		//create array of text to output
 //		var text;
 	
-//		//line1
-//		//gems value | gems | gems total
+		//line1
+		//gems value | gems | gems total
 //		text[0] = string(o_player.gems_value) + " x";
-//		text[1] = o_player.gems;
+//		text[1] = obj_player.gems;
 //		var _gems_total = o_player.gems * o_player.gems_value;
 //		text[2] = _gems_total;
 	
@@ -144,7 +145,7 @@
 //			//move down extra for the last line
 //			if j = 2 yy += gap_r/3;
 //		}
-//	}
+	}
 //#endregion
 //} else {
 //	//draw main menu and fade to first level

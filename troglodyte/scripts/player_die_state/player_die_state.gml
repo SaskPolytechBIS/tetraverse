@@ -14,11 +14,11 @@ function player_die_state() {
 	//check state
 	if (image_index >= image_number - 1) {
 		image_speed = 0;
-		get_input();		
-		if jump or attack {		
-			if lives <= 0 {
-				game_restart();
-			} else {
+		if lives <= 0 {
+			obj_game.game_over_lose = true;
+		} else {
+			get_input();		
+			if jump or attack {	
 				room_restart();
 				//reset player
 				x = room_start_pos_x;
