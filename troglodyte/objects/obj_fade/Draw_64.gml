@@ -29,10 +29,10 @@ if fade_to_colour {
 			scale_y = 1;
 			
 			//reset player if dead
-			//if state == states.DIE {
-			//	image_speed = 1;
-			//	hp = max_hp;
-			//}
+			if state == states.DIE {
+				image_speed = 1;
+				hp = max_hp;
+			}
 			
 			//ensure we stay in game end state
 			//if state != states.GAME_END {
