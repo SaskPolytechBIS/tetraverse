@@ -29,3 +29,5 @@ layer_x("bg_parallax_mountain", lerp(0, -camera_get_view_x(view_camera[0]), 0.1)
 layer_x("bg_parallax_trees_distant_3", lerp(0, -camera_get_view_x(view_camera[0]), 0.15));
 layer_x("bg_parallax_trees_distant_2", lerp(0, -camera_get_view_x(view_camera[0]), 0.2));
 layer_x("bg_parallax_trees_distant_1", lerp(0, -camera_get_view_x(view_camera[0]), 0.30));
+layer_x("bg_cave", lerp(0, -camera_get_view_x(view_camera[0]), 0.25)); // bg_cave horizontal scrolling
+layer_y("bg_cave", 360); // ✅ Set bg_cave's Y position to 360

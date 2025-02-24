@@ -108,9 +108,11 @@
     {"name":"spr_lives","order":3,"path":"sprites/spr_lives/spr_lives.yy",},
     {"name":"spr_main_menu","order":6,"path":"sprites/spr_main_menu/spr_main_menu.yy",},
     {"name":"spr_mountain","order":3,"path":"sprites/spr_mountain/spr_mountain.yy",},
+    {"name":"spr_tile_cave_platform","order":8,"path":"sprites/spr_tile_cave_platform/spr_tile_cave_platform.yy",},
     {"name":"spr_tree_distant_2","order":4,"path":"sprites/spr_tree_distant_2/spr_tree_distant_2.yy",},
     {"name":"spr_trees_distant_1","order":5,"path":"sprites/spr_trees_distant_1/spr_trees_distant_1.yy",},
     {"name":"spr_trees_distant_3","order":1,"path":"sprites/spr_trees_distant_3/spr_trees_distant_3.yy",},
+    {"name":"spr_ts_cave","order":7,"path":"sprites/spr_ts_cave/spr_ts_cave.yy",},
     {"name":"Tiger_Sprite_idle","order":1,"path":"sprites/Tiger_Sprite_idle/Tiger_Sprite_idle.yy",},
     {"name":"Tiger_Sprite_swipe","order":2,"path":"sprites/Tiger_Sprite_swipe/Tiger_Sprite_swipe.yy",},
     {"name":"Tiger_Sprite_walk","order":3,"path":"sprites/Tiger_Sprite_walk/Tiger_Sprite_walk.yy",},
@@ -119,5 +121,6 @@
     {"name":"yeti_punch","order":3,"path":"sprites/yeti_punch/yeti_punch.yy",},
     {"name":"yeti_walk","order":2,"path":"sprites/yeti_walk/yeti_walk.yy",},
     {"name":"t_collisions","order":1,"path":"tilesets/t_collisions/t_collisions.yy",},
+    {"name":"ts_cave","order":2,"path":"tilesets/ts_cave/ts_cave.yy",},
   ],
 }
