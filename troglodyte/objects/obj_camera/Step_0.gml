@@ -4,7 +4,7 @@ x = lerp(x, move_to_x, camera_pan_speed);
 y = lerp(y, move_to_y, camera_pan_speed);
  
  
-camera_set_view_pos(camera, x - camera_get_view_width(camera)/2, y - camera_get_view_height(camera)/2);
+camera_set_view_pos(camera, x - camera_get_view_width(camera)/2, y - camera_get_view_height(camera)/1.5);
  
 if follow != noone {
 	move_to_x = follow.x;
