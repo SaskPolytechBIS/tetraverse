@@ -16,7 +16,7 @@ if hurt {
 		if flash_counter > flash_on_time * 4 flash_counter = 0;
 	}
 } else {
-	draw_self();
+	draw_sprite_ext(sprite_index, image_index, x, y, image_xscale * scale_x, image_yscale * scale_y, image_angle, c_white, image_alpha);	
 	draw_text(x, y, hp);
 }
 //show bounding box

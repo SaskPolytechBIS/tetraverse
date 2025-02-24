@@ -9,6 +9,8 @@ draw_set_colour(col_tail);
 draw_line_width(xpp, ypp, xp, yp, min(abs(speed), 1) * line_width);
 //draw lighting
 draw_circle_color(x, y, speed, merge_colour(c_black, col_head, speed * intensity), c_black, 0);	
+//draw lighting
+draw_circle_color(x, y, speed, merge_color(c_black, col_head, speed * intensity), c_black, 0);
 //reset blendmode
 gpu_set_blendmode(bm_normal);
 

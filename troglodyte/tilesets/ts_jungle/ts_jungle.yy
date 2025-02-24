@@ -8,7 +8,7 @@
     "TileSerialiseData":[],
   },
   "name":"ts_jungle",
-  "out_columns":6,
+  "out_columns":15,
   "out_tilehborder":2,
   "out_tilevborder":2,
   "parent":{
@@ -18,8 +18,8 @@
   "resourceType":"GMTileSet",
   "resourceVersion":"2.0",
   "spriteId":{
-    "name":"spr_ground",
-    "path":"sprites/spr_ground/spr_ground.yy",
+    "name":"spr_ground2",
+    "path":"sprites/spr_ground2/spr_ground2.yy",
   },
   "spriteNoExport":false,
   "textureGroupId":{
@@ -34,5 +34,5 @@
   "tileWidth":16,
   "tilexoff":0,
   "tileyoff":0,
-  "tile_count":35,
+  "tile_count":216,
 }
