@@ -25,8 +25,8 @@
   "nineSlice":null,
   "origin":4,
   "parent":{
-    "name":"sample_spear",
-    "path":"folders/Sprites/sample_spear.yy",
+    "name":"Objects",
+    "path":"folders/Sprites/Objects.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

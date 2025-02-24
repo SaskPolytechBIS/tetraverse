@@ -1,16 +1,16 @@
 {
   "$GMRoom":"v1",
-  "%Name":"rm_game",
+  "%Name":"rm_00",
   "creationCodeFile":"",
   "inheritCode":false,
   "inheritCreationOrder":false,
   "inheritLayers":false,
   "instanceCreationOrder":[
-    {"name":"inst_76F4391D","path":"rooms/rm_game/rm_game.yy",},
-    {"name":"inst_5D7A6A23","path":"rooms/rm_game/rm_game.yy",},
-    {"name":"inst_25B1774E","path":"rooms/rm_game/rm_game.yy",},
-    {"name":"inst_2DD66A77","path":"rooms/rm_game/rm_game.yy",},
-    {"name":"inst_BA4CDF0","path":"rooms/rm_game/rm_game.yy",},
+    {"name":"inst_76F4391D","path":"rooms/rm_00/rm_00.yy",},
+    {"name":"inst_5D7A6A23","path":"rooms/rm_00/rm_00.yy",},
+    {"name":"inst_25B1774E","path":"rooms/rm_00/rm_00.yy",},
+    {"name":"inst_2DD66A77","path":"rooms/rm_00/rm_00.yy",},
+    {"name":"inst_BA4CDF0","path":"rooms/rm_00/rm_00.yy",},
   ],
   "isDnd":false,
   "layers":[
@@ -126,7 +126,7 @@
     {"$GMRBackgroundLayer":"","%Name":"bg_cave","animationFPS":30.0,"animationSpeedType":0,"colour":4294967295,"depth":800,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"hspeed":0.0,"htiled":true,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"bg_cave","properties":[],"resourceType":"GMRBackgroundLayer","resourceVersion":"2.0","spriteId":{"name":"spr_cave","path":"sprites/spr_cave/spr_cave.yy",},"stretch":false,"userdefinedAnimFPS":false,"userdefinedDepth":false,"visible":true,"vspeed":0.0,"vtiled":false,"x":0,"y":0,},
     {"$GMRBackgroundLayer":"","%Name":"Background","animationFPS":15.0,"animationSpeedType":0,"colour":3254797568,"depth":900,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"hspeed":0.0,"htiled":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"Background","properties":[],"resourceType":"GMRBackgroundLayer","resourceVersion":"2.0","spriteId":null,"stretch":false,"userdefinedAnimFPS":false,"userdefinedDepth":false,"visible":false,"vspeed":0.0,"vtiled":false,"x":0,"y":0,},
   ],
-  "name":"rm_game",
+  "name":"rm_00",
   "parent":{
     "name":"Rooms",
     "path":"folders/Rooms.yy",

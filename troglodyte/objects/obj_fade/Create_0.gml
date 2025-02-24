@@ -1,5 +1,5 @@
 //player spawn details
-target_rm = noone;
+target_rm = rm_menu;
 target_x = 0;
 target_y = 0;
 facing = 1;

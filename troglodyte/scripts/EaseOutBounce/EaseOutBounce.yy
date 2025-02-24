@@ -1,9 +1,9 @@
 {
   "$GMScript":"v1",
-  "%Name":"Tweens",
+  "%Name":"EaseOutBounce",
   "isCompatibility":false,
   "isDnD":false,
-  "name":"Tweens",
+  "name":"EaseOutBounce",
   "parent":{
     "name":"Scripts",
     "path":"folders/Scripts.yy",
