@@ -2,7 +2,7 @@
 function frog_anim() {
 	sprite_index = sprites_array[state];
 	//mask_index = mask_array[state];
-	image_xscale = facing;
+	image_xscale = -facing;
 
 	switch(state) {
 		case frog_states.JUMP:

@@ -8,7 +8,7 @@ spd = 2;
 jump_spd = -6;
 hsp_decimal = 0;
 vsp_decimal = 0;
-facing = choose(-1, 1);
+facing = choose(1, 1);
 
 //actions
 can_attack = true;
