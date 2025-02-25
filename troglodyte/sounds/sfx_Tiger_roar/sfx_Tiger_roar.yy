@@ -1,0 +1,25 @@
+{
+  "$GMSound":"",
+  "%Name":"sfx_Tiger_roar",
+  "audioGroupId":{
+    "name":"audiogroup_default",
+    "path":"audiogroups/audiogroup_default",
+  },
+  "bitDepth":1,
+  "bitRate":128,
+  "compression":0,
+  "conversionMode":0,
+  "duration":2.142,
+  "name":"sfx_Tiger_roar",
+  "parent":{
+    "name":"Tiger",
+    "path":"folders/Sounds/Mobs Sounds/Tiger.yy",
+  },
+  "preload":false,
+  "resourceType":"GMSound",
+  "resourceVersion":"2.0",
+  "sampleRate":44100,
+  "soundFile":"sfx_Tiger_roar.MP3",
+  "type":0,
+  "volume":1.0,
+}
