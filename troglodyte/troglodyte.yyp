@@ -83,6 +83,7 @@
     {"id":{"name":"obj_player_dust_jump","path":"objects/obj_player_dust_jump/obj_player_dust_jump.yy",},},
     {"id":{"name":"obj_player_dust_land","path":"objects/obj_player_dust_land/obj_player_dust_land.yy",},},
     {"id":{"name":"obj_player","path":"objects/obj_player/obj_player.yy",},},
+    {"id":{"name":"obj_room_audio","path":"objects/obj_room_audio/obj_room_audio.yy",},},
     {"id":{"name":"obj_spark","path":"objects/obj_spark/obj_spark.yy",},},
     {"id":{"name":"obj_transition","path":"objects/obj_transition/obj_transition.yy",},},
     {"id":{"name":"rm_00","path":"rooms/rm_00/rm_00.yy",},},

@@ -1,5 +1,5 @@
 
-function boar_attack_state(){
+function boar_attack_state(){	
 	// get inputs
 	// calculate movement
 	
@@ -13,6 +13,7 @@ function boar_attack_state(){
 		state = boar_states.IDLE;
 		alarm[CAN_ATTACK] = attack_delay;
 		depth = layer_get_depth(layer_get_id("Mobs"));
+		
 	}
 	
 	// apply movement

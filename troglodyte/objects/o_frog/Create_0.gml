@@ -53,3 +53,6 @@ sprites_array[frog_states.JUMP_START]	= spr_boar_jump_start;
 sprites_array[frog_states.JUMP]			= spr_boar_jump_air;
 sprites_array[frog_states.JUMP_LAND]	= spr_boar_jump_land;
 sprites_array[frog_states.ATTACK]		= spr_boar_attack;
+
+// boar's attack SFX variable
+attackSoundPlayed = false;
