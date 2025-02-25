@@ -1,10 +1,9 @@
 ////720x360
-
-if room != rm_menu {
-	//get gui dimensions
-	var gw = display_get_gui_width();
-	var gh = display_get_gui_height();
+//get gui dimensions
+var gw = display_get_gui_width();
+var gh = display_get_gui_height();
 	
+if room != rm_menu {	
 //	if room != rm_game_end {
 		//Meat
 		#region
@@ -79,7 +78,7 @@ if room != rm_menu {
 } else {
 	//draw main menu and fade to first level
 	//draw bounce
-	var start_y = 350;		//how far the animation moves
+	var start_y = 150;		//how far the animation moves
 	var factor = start_y;
 	
 	var max_frames = 60;		//how long animation goes for
@@ -88,7 +87,7 @@ if room != rm_menu {
 	
 	if current_frame < max_frames {
 		current_frame++;
-		move = EaseOutBounce(current_frame, 0, 1, max_frames)
+		move = EaseOutBounce(current_frame, 0, 1, max_frames);
 	} else {
 		move = 1;
 		//alow game start as menu has dropped
@@ -99,7 +98,7 @@ if room != rm_menu {
 //			//var next_room_str = room_get_name(room_next(room));
 //			//get asset index of next room i.e 1, 2, 3...rooms start at 0
 //			//var next_room_name = asset_get_index(next_room_str);			
-			fade_to_room(rm_game, 0, 0, 1, c_red);
+			fade_to_room(rm_00, 0, 0, 1, c_black);
 		}
 	}
 	

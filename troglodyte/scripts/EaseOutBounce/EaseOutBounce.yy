@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"EaseOutBounce",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"EaseOutBounce",
+  "parent":{
+    "name":"Scripts",
+    "path":"folders/Scripts.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

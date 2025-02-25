@@ -35,12 +35,12 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_frog_idle",
-    "path":"sprites/spr_frog_idle/spr_frog_idle.yy",
+    "name":"spr_boar_idle",
+    "path":"sprites/spr_boar_idle/spr_boar_idle.yy",
   },
   "spriteMaskId":{
-    "name":"spr_frog_idle",
-    "path":"sprites/spr_frog_idle/spr_frog_idle.yy",
+    "name":"spr_boar_idle",
+    "path":"sprites/spr_boar_idle/spr_boar_idle.yy",
   },
   "visible":true,
 }

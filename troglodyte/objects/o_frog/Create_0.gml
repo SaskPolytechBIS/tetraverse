@@ -48,8 +48,8 @@ states_array[frog_states.JUMP]			= frog_jump_state;
 states_array[frog_states.JUMP_LAND]		= frog_jump_land_state;
 states_array[frog_states.ATTACK]		= frog_attack_state;
 
-sprites_array[frog_states.IDLE]			= spr_frog_idle;
-sprites_array[frog_states.JUMP_START]	= spr_frog_jump_start;
-sprites_array[frog_states.JUMP]			= spr_frog_jump;
-sprites_array[frog_states.JUMP_LAND]	= spr_frog_jump_land;
-sprites_array[frog_states.ATTACK]		= spr_frog_attack;
+sprites_array[frog_states.IDLE]			= spr_boar_idle;
+sprites_array[frog_states.JUMP_START]	= spr_boar_jump_start;
+sprites_array[frog_states.JUMP]			= spr_boar_jump_air;
+sprites_array[frog_states.JUMP_LAND]	= spr_boar_jump_land;
+sprites_array[frog_states.ATTACK]		= spr_boar_attack;

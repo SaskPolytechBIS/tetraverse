@@ -18,8 +18,8 @@
   "resourceType":"GMTileSet",
   "resourceVersion":"2.0",
   "spriteId":{
-    "name":"tile_jungle_plants_objects_1_",
-    "path":"sprites/tile_jungle_plants_objects_1_/tile_jungle_plants_objects_1_.yy",
+    "name":"spr_tile_cave_objects",
+    "path":"sprites/spr_tile_cave_objects/spr_tile_cave_objects.yy",
   },
   "spriteNoExport":false,
   "textureGroupId":{
