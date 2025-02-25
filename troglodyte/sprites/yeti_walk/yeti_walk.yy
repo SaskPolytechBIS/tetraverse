@@ -34,7 +34,7 @@
   "origin":4,
   "parent":{
     "name":"Yeti",
-    "path":"folders/Sprites/Yeti.yy",
+    "path":"folders/Sprites/Mobs/Yeti.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",
@@ -67,7 +67,7 @@
     },
     "name":"yeti_walk",
     "playback":1,
-    "playbackSpeed":30.0,
+    "playbackSpeed":12.0,
     "playbackSpeedType":0,
     "resourceType":"GMSequence",
     "resourceVersion":"2.0",

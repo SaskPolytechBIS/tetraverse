@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"caveman_idle_state",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"caveman_idle_state",
+  "parent":{
+    "name":"Caveman",
+    "path":"folders/Scripts/Mobs/Caveman.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

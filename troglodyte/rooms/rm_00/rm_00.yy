@@ -11,6 +11,8 @@
     {"name":"inst_25B1774E","path":"rooms/rm_00/rm_00.yy",},
     {"name":"inst_2DD66A77","path":"rooms/rm_00/rm_00.yy",},
     {"name":"inst_BA4CDF0","path":"rooms/rm_00/rm_00.yy",},
+    {"name":"inst_412CF30A","path":"rooms/rm_00/rm_00.yy",},
+    {"name":"inst_5E3C89FC","path":"rooms/rm_00/rm_00.yy",},
   ],
   "isDnd":false,
   "layers":[
@@ -23,7 +25,9 @@
         {"$GMRInstance":"v1","%Name":"inst_5D7A6A23","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_5D7A6A23","objectId":{"name":"obj_bg_parallax","path":"objects/obj_bg_parallax/obj_bg_parallax.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":0.0,"y":-32.0,},
       ],"layers":[],"name":"Player","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
     {"$GMRInstanceLayer":"","%Name":"Mobs","depth":-800,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[
-        {"$GMRInstance":"v1","%Name":"inst_25B1774E","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_25B1774E","objectId":{"name":"o_frog","path":"objects/o_frog/o_frog.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":242.0,"y":282.0,},
+        {"$GMRInstance":"v1","%Name":"inst_25B1774E","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_25B1774E","objectId":{"name":"o_frog","path":"objects/o_frog/o_frog.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":448.0,"y":288.0,},
+        {"$GMRInstance":"v1","%Name":"inst_412CF30A","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_412CF30A","objectId":{"name":"obj_caveman","path":"objects/obj_caveman/obj_caveman.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":768.0,"y":704.0,},
+        {"$GMRInstance":"v1","%Name":"inst_5E3C89FC","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_5E3C89FC","objectId":{"name":"obj_caveman","path":"objects/obj_caveman/obj_caveman.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":256.0,"y":544.0,},
       ],"layers":[],"name":"Mobs","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
     {"$GMRInstanceLayer":"","%Name":"Meat","depth":-700,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[],"layers":[],"name":"Meat","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
     {"$GMRInstanceLayer":"","%Name":"Dust","depth":-600,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[],"layers":[],"name":"Dust","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
@@ -37,11 +41,11 @@
           1,1,-18,-2147483648,-7,1,-9,-2147483648,-9,0,3,1,0,1,-15,-2147483648,-10,0,-10,-2147483648,-9,1,-24,
           -2147483648,-3,1,-2,0,-6,-2147483648,-3,1,-2,-2147483648,-4,1,2,-2147483648,1,-35,-2147483648,1,1,-7,
           -2147483648,1,1,-26,-2147483648,3,1,-2147483648,0,-6,-2147483648,2,1,-2147483648,-4,1,-4,-2147483648,
-          1,1,-9,-2147483648,-14,2,6,0,-2147483648,-2147483648,0,2,2,-6,-2147483648,1,1,-17,-2147483648,-12,0,
+          1,1,-9,-2147483648,-14,1,6,0,-2147483648,-2147483648,0,1,1,-6,-2147483648,1,1,-17,-2147483648,-12,0,
           -2,-2147483648,-4,0,-8,1,-10,-2147483648,1,1,-35,-2147483648,1,1,-16,-2147483648,-16,0,-21,-2147483648,
           1,1,-5,-2147483648,-26,1,-3,-2147483648,2,0,1,-6,-2147483648,-10,0,-37,-2147483648,1,1,-30,-2147483648,
           -5,1,-54,-2147483648,1,1,-15,-2147483648,-5,0,-69,-2147483648,2,1,-2147483648,-5,0,-9,-2147483648,-30,
-          0,-44,-2147483648,1,1,-18,0,-71,-2147483648,1,1,-89,-2147483648,-14,1,-40,-2147483648,-16,2,-33,-2147483648,
+          0,-44,-2147483648,1,1,-18,0,-71,-2147483648,1,1,-89,-2147483648,-14,1,-40,-2147483648,-16,1,-33,-2147483648,
           1,1,-89,-2147483648,-77,1,
         ],"TileDataFormat":1,},"tilesetId":{"name":"t_collisions","path":"tilesets/t_collisions/t_collisions.yy",},"userdefinedDepth":false,"visible":false,"x":0,"y":0,},
     {"$GMRTileLayer":"","%Name":"Tile_mid_cave","depth":-400,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"Tile_mid_cave","properties":[],"resourceType":"GMRTileLayer","resourceVersion":"2.0","tiles":{"SerialiseHeight":23,"SerialiseWidth":45,"TileCompressedData":[
