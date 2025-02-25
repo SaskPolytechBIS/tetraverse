@@ -1,5 +1,12 @@
 ///player_die_state();
 function player_die_state() {
+	
+	// Play death sound effect only once
+    if (!deathSoundPlayed) {
+        audio_play_sound(sfx_mc_death, 1, false);
+        deathSoundPlayed = true;
+    }
+	
 	//get input
 
 	//calculate movement
@@ -29,6 +36,9 @@ function player_die_state() {
 				//image_speed = 1;
 				////reset hp
 				//hp = max_hp;
+				
+				// Reset deathSoundPlayed so that the sound will play again on the next death
+                deathSoundPlayed = false;
 				
 				fade_to_room(room, room_start_pos_x, room_start_pos_y, room_start_facing, c_black);
 				//allow instant camera panning

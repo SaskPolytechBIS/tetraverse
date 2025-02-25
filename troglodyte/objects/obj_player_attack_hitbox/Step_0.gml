@@ -28,7 +28,7 @@ with(obj_mobs_parent) {
 				scr_screen_shake(.1, 1.5);				
 				
 	//			//sound
-	//			if !audio_is_playing(snd_sword_hit) audio_play_sound(snd_sword_hit, 10, false);
+				if !audio_is_playing(sfx_club_hit_1) audio_play_sound(sfx_club_hit_1, 10, false);
 				
 				// hit effect
 	//			var inst = instance_create_depth(x, (bbox_top + bbox_bottom)/2, depth - 1, obj_sword_hit);

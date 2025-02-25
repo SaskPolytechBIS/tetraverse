@@ -55,6 +55,12 @@ if die {
 //collision
 collision();
 
+// item pickup sfx
+if (instance_place(x, y, obj_player)) 
+{    
+	audio_play_sound(sfx_item_pick_up, 1, false);
+}
+
 //update the lights position
 //with(light_id) {
 //	x = other.x;	

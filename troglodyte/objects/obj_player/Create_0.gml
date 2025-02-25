@@ -115,3 +115,6 @@ mask_array[states.CROUCH_BLOCK]	= s_player_block;
 mask_array[states.HURTING]		= s_player_idle;
 mask_array[states.KNOCKBACK]	= s_player_idle;
 mask_array[states.DIE]			= s_player_idle;
+
+// death sound variable
+deathSoundPlayed = false;
