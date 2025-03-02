@@ -1,4 +1,8 @@
 ////720x360
+
+window_set_fullscreen(true);
+
+
 //get gui dimensions
 var gw = display_get_gui_width();
 var gh = display_get_gui_height();
@@ -102,7 +106,7 @@ if room != rm_menu {
 		}
 	}
 	
-	draw_sprite(spr_main_menu, 0, 0, (move * factor) - start_y);
+	draw_sprite(spr_main_screen61, 0, 0, (move * factor) - start_y);
 	
 //	//draw highscore
 //	if current_frame == max_frames {

@@ -200,6 +200,8 @@
     {"id":{"name":"spr_hp_bar","path":"sprites/spr_hp_bar/spr_hp_bar.yy",},},
     {"id":{"name":"spr_lives","path":"sprites/spr_lives/spr_lives.yy",},},
     {"id":{"name":"spr_main_menu","path":"sprites/spr_main_menu/spr_main_menu.yy",},},
+    {"id":{"name":"spr_main_screen","path":"sprites/spr_main_screen/spr_main_screen.yy",},},
+    {"id":{"name":"spr_main_screen61","path":"sprites/spr_main_screen61/spr_main_screen61.yy",},},
     {"id":{"name":"spr_mountain","path":"sprites/spr_mountain/spr_mountain.yy",},},
     {"id":{"name":"spr_skies","path":"sprites/spr_skies/spr_skies.yy",},},
     {"id":{"name":"spr_tiger_attack","path":"sprites/spr_tiger_attack/spr_tiger_attack.yy",},},
