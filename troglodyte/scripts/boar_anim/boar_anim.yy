@@ -5,8 +5,8 @@
   "isDnD":false,
   "name":"boar_anim",
   "parent":{
-    "name":"Mobs",
-    "path":"folders/Scripts/Mobs.yy",
+    "name":"Boar",
+    "path":"folders/Scripts/Mobs/Boar.yy",
   },
   "resourceType":"GMScript",
   "resourceVersion":"2.0",

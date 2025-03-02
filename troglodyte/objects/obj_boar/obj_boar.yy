@@ -14,7 +14,10 @@
     "name":"Mobs",
     "path":"folders/Objects/Mobs.yy",
   },
-  "parentObjectId":null,
+  "parentObjectId":{
+    "name":"obj_mobs_parent",
+    "path":"objects/obj_mobs_parent/obj_mobs_parent.yy",
+  },
   "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,
@@ -33,12 +36,12 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_boar_walk",
-    "path":"sprites/spr_boar_walk/spr_boar_walk.yy",
+    "name":"spr_boar_idle",
+    "path":"sprites/spr_boar_idle/spr_boar_idle.yy",
   },
   "spriteMaskId":{
-    "name":"spr_boar_walk",
-    "path":"sprites/spr_boar_walk/spr_boar_walk.yy",
+    "name":"spr_boar_idle",
+    "path":"sprites/spr_boar_idle/spr_boar_idle.yy",
   },
   "visible":true,
 }

@@ -1,87 +1,45 @@
 
 function boar_idle_state(){
-	
-	//get inputs
-	breathing();
-	
-	// calculate movement
-	
-	// modify state
-	// attack
-	var detect_player_dis = 40;
-	var player_alert = false;	// player is infront and within range, but attach is not ready
-	
-	//player is with detected distance and we are facing the player and we can attack
-	if (distance_to_object(obj_player) < detect_player_dis) and sign(obj_player.x - x) = facing and can_attackK {
-		if can_attack {
-			//attack
-			can_attack = false;
-			state = boar_states.ATTACK;
-			image_index = 0;
-			image_speed = 1;
-		}
-		player_alert = true;
-	}
-	
-	if jump_timer < 0 && !player_alert {
-		// reset timer
-		jump_timer = jump_timer_initial;
-		
-		// do we jump?
-		var _jump = random(1);
-		if _jump > jump_chance {
-			state = boar_states.JUMP_START;
-			//reset breath values
-			image_index = 0;
-			image_speed = 1;
-			max_hsp = max_hsp_initial;
-			
-			var turned = false;
-			// look for solid one tile ahead
-			var t1 = tilemap_get_at_pixel(global.map, x + sign(facing) * global.tile_size, bbox_bottom);
-			if t1 == SOLID {
-				facing *= -1;
-				turned = true;
-			}
-			
-			// look for void one tile ahead
-			var t1 = tilemap_get_at_pixel(global.map, x + sign(facing) * global.tile_size, bbox_bottom + 1);
-			if t1 == VOID {
-				if !turned facing *= -1;
-			} 
-			//look for voids multiple tiles ahead
-			for (var i = 3; i > 0; i--) {
-				t1 = tilemap_get_at_pixel(global.map, x + sign(facing) * global.tile_size * i, bbox_bottom + 1);
-				if t1 == VOID {
-					//find furthest solid jump point
-					var tile_start_x =	(x + sign(facing) * global.tile_size * i) - 
-										(x + sign(facing) * global.tile_size * i) mod global.tile_size;
-					//half of mask
-					var half_mask = (bbox_right + 1 - bbox_left)/2;
-					
-					if facing == 1 {
-						var target = tile_start_x - half_mask;
-					} else {
-						var target = tile_start_x + global.tile_size;
-					}
-					
-					// adjust max_hsp to land at target
-					//speed = distance/time
-					//hong long is boar in air = 48
-					var steps_in_air = 48;
-					max_hsp = abs(target -x)/steps_in_air;
-				}
-			}
-		}
-	} else {
-		jump_timer--;
-	}
-	
-	// apply movement
-	collision();
-	
-	//animations
-	boar_anim();
-	
+// Check health first
+    check_enemy_hp();
+
+    // Stop movement while idle
+    hsp = 0;
+    vsp = 0;
+
+    // Detection & Attack Range
+    var detect_player_dis = 100; // Increased to allow the tiger to react earlier
+    var attack_range = 20;       // Close-range attack trigger
+
+    // Player Detection
+    var player_detected = (distance_to_object(obj_player) < detect_player_dis);
+    var player_in_attack_range = (distance_to_object(obj_player) < attack_range);
+
+    if (player_detected && sign(obj_player.x - x) == facing) {
+        if (obj_player.hp > 0) {
+            player_alert = true; // Can be used for animation, growling, or preparing stance
+            
+            // Attack only if it's ready
+            if (can_attack && player_in_attack_range) {
+                state = boar_states.ATTACK;
+                can_attack = false;
+                image_index = 0;
+                image_speed = 1;
+                
+                // Cooldown for attack (1 second delay)
+                alarm[0] = 30;
+            } 
+            else if (!player_in_attack_range) {
+                // If the player is detected but too far, chase them
+                state = boar_states.CHASE;
+            }
+        }
+    }
+
+    // Apply movement (ensures the tiger is affected by collisions)
+    collision();
+
+    // Handle animations
+    boar_anim();
 
 }

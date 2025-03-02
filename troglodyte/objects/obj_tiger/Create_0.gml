@@ -8,7 +8,6 @@ spd = 0.5;
 jump_spd = -6;
 hsp_decimal = 0;
 vsp_decimal = 0;
-// facing = choose(1, 1);
 
 attackSoundPlayed = false;
 
@@ -17,13 +16,6 @@ if (x < obj_player.x) {
 } else {
     facing = -1; // If the tiger is to the right of the player, face left
 }
-
-
-
-// jump
-//walk_chance = 0.5;
-//walk_timer_initial = random_range(game_get_speed(gamespeed_fps), game_get_speed(gamespeed_fps) * 1.5);
-//walk_timer = walk_timer_initial;
 
 
 drag = 0.04;
