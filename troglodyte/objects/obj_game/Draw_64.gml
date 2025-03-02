@@ -8,7 +8,7 @@ var gw = display_get_gui_width();
 var gh = display_get_gui_height();
 	
 if room != rm_menu {	
-//	if room != rm_game_end {
+	if room != rm_game_end {
 		//Meat
 		#region
 		draw_set_font(fnt_stats);
@@ -58,27 +58,19 @@ if room != rm_menu {
 			}
 		}
 		#endregion
-
-		//game over
-		#region
-		if game_over_lose or (game_over_won and game_over_won_delay <= 0) {
+	}
+	//game over
+	#region
+	if game_over_lose or (game_over_won and game_over_won_delay <= 0) {
 		//center gui
-//		if game_over_won {
-//			var mx = gw/4;
-//			var my = gh/2;
-//		} else {
-			//game over lose
 			var mx = gw / 2;
 			var my = gh / 2;
-//		}
 
 		//draw game over
-		//draw_sprite_ext(spr_game_over, 0, draw_x, draw_y, scale, scale, 0, c_white, 1);
 		draw_sprite_ext(spr_game_over, 0, mx, my, 2, 2, 0, c_white, 1);
-//		if game_over_lose var _index = 0 else var _index = 1;
 		draw_sprite(spr_game_over_text, 0, mx, my);
 	}
-		#endregion
+	#endregion
 } else {
 	//draw main menu and fade to first level
 	//draw bounce
@@ -106,7 +98,7 @@ if room != rm_menu {
 		}
 	}
 	
-	draw_sprite(spr_main_screen61, 0, 0, (move * factor) - start_y);
+	draw_sprite(spr_main_screen2, 0, 0, (move * factor) - start_y);
 	
 //	//draw highscore
 //	if current_frame == max_frames {
@@ -124,12 +116,12 @@ if fade_in {
 	draw_set_alpha(1);
 }
 
-////display msg
-//if alarm[DISPLAY_MSG] > 0 {
-//	draw_set_halign(fa_center);
-//	draw_set_font(fnt_bookman);
-//	draw_set_color(c_black);
-//	draw_text(gw/2 + 1, gh *.85 + 1, msg);
-//	draw_set_color(c_white);
-//	draw_text(gw/2, gh *.85, msg);	
-//}
+//display msg
+if alarm[DISPLAY_MSG] > 0 {
+	draw_set_halign(fa_center);
+	//draw_set_font(fnt_bookman);
+	draw_set_color(c_black);
+	draw_text(gw/2 + 1, gh *.85 + 1, msg);
+	draw_set_color(c_white);
+	draw_text(gw/2, gh *.85, msg);	
+}
