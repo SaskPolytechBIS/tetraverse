@@ -17,7 +17,7 @@ if hurt {
 	}
 } else {
 	draw_sprite_ext(sprite_index, image_index, x, y, image_xscale * scale_x, image_yscale * scale_y, image_angle, c_white, image_alpha);	
-	draw_text(x, y, hp);
+	//draw_text(x, y, hp);
 }
 //show bounding box
 //draw_set_alpha(0.3);
