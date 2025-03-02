@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"tiger_idle_state",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"tiger_idle_state",
+  "parent":{
+    "name":"Tiger",
+    "path":"folders/Scripts/Mobs/Tiger.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

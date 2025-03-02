@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"tiger_anim",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"tiger_anim",
+  "parent":{
+    "name":"Tiger",
+    "path":"folders/Scripts/Mobs/Tiger.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}
