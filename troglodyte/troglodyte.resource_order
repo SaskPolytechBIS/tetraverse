@@ -93,7 +93,7 @@
     {"name":"scr_screen_shake","order":9,"path":"scripts/scr_screen_shake/scr_screen_shake.yy",},
     {"name":"tiger_anim","order":2,"path":"scripts/tiger_anim/tiger_anim.yy",},
     {"name":"tiger_attack_state","order":1,"path":"scripts/tiger_attack_state/tiger_attack_state.yy",},
-    {"name":"tiger_walk_state","order":3,"path":"scripts/tiger_walk_state/tiger_walk_state.yy",},
+    {"name":"tiger_chase_state","order":3,"path":"scripts/tiger_chase_state/tiger_chase_state.yy",},
     {"name":"bgm_Jungle_2","order":1,"path":"sounds/bgm_Jungle_2/bgm_Jungle_2.yy",},
     {"name":"bgm_victory_ending","order":2,"path":"sounds/bgm_victory_ending/bgm_victory_ending.yy",},
     {"name":"sfx_Boar_snort","order":1,"path":"sounds/sfx_Boar_snort/sfx_Boar_snort.yy",},

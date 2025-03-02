@@ -1,37 +1,43 @@
 function tiger_idle_state() {
-	//frog_idle_state
-	//check health
-	check_enemy_hp();
-	
-	//set spd
-	hsp = 0;
-	vsp = 0;
+    // Check health first
+    check_enemy_hp();
 
-	//modify state
-	//attack
-	
-	var detect_player_dis = 100;
-	var player_alert = false;	//player in front and within range, but attack is not rdy
-	//player is with detected distance and we are facing the player and we can attack
-	if (distance_to_object(obj_player) < detect_player_dis) and sign(obj_player.x - x) == facing {
-	if obj_player.hp > 0 {
-		//	if can_attack {
-				//attack
-				can_attack = false;
-				state = tiger_states.ATTACK;
-				image_index = 0;
-				image_speed = 1;
-			}
-			player_alert = true;
-		//}
-	}
+    // Stop movement while idle
+    hsp = 0;
+    vsp = 0;
 
+    // Detection & Attack Range
+    var detect_player_dis = 100; // Increased to allow the tiger to react earlier
+    var attack_range = 20;       // Close-range attack trigger
 
-	//apply movement
-	collision();
+    // Player Detection
+    var player_detected = (distance_to_object(obj_player) < detect_player_dis);
+    var player_in_attack_range = (distance_to_object(obj_player) < attack_range);
 
-	//animations
-	tiger_anim();
+    if (player_detected && sign(obj_player.x - x) == facing) {
+        if (obj_player.hp > 0) {
+            player_alert = true; // Can be used for animation, growling, or preparing stance
+            
+            // Attack only if it's ready
+            if (can_attack && player_in_attack_range) {
+                state = tiger_states.ATTACK;
+                can_attack = false;
+                image_index = 0;
+                image_speed = 1;
+                
+                // Cooldown for attack (1 second delay)
+                alarm[0] = 30;
+            } 
+            else if (!player_in_attack_range) {
+                // If the player is detected but too far, chase them
+                state = tiger_states.CHASE;
+            }
+        }
+    }
 
+    // Apply movement (ensures the tiger is affected by collisions)
+    collision();
 
+    // Handle animations
+    tiger_anim();
 }

@@ -1,9 +1,9 @@
 {
   "$GMScript":"v1",
-  "%Name":"tiger_walk_state",
+  "%Name":"tiger_chase_state",
   "isCompatibility":false,
   "isDnD":false,
-  "name":"tiger_walk_state",
+  "name":"tiger_chase_state",
   "parent":{
     "name":"Tiger",
     "path":"folders/Scripts/Mobs/Tiger.yy",
