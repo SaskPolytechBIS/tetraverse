@@ -142,7 +142,7 @@
     {"name":"spr_lives","order":3,"path":"sprites/spr_lives/spr_lives.yy",},
     {"name":"spr_main_menu","order":14,"path":"sprites/spr_main_menu/spr_main_menu.yy",},
     {"name":"spr_main_screen","order":15,"path":"sprites/spr_main_screen/spr_main_screen.yy",},
-    {"name":"spr_main_screen61","order":16,"path":"sprites/spr_main_screen61/spr_main_screen61.yy",},
+    {"name":"spr_main_screen2","order":16,"path":"sprites/spr_main_screen2/spr_main_screen2.yy",},
     {"name":"spr_mountain","order":3,"path":"sprites/spr_mountain/spr_mountain.yy",},
     {"name":"spr_tiger_attack","order":2,"path":"sprites/spr_tiger_attack/spr_tiger_attack.yy",},
     {"name":"spr_tiger_idle","order":1,"path":"sprites/spr_tiger_idle/spr_tiger_idle.yy",},
