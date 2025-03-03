@@ -4,7 +4,7 @@ function yeti_punch_state() {
 
     // Play attack sound once per attack
     if (!attackSoundPlayed) {
-        //audio_play_sound(snd_yeti_punch, 1, false);
+        audio_play_sound(sfx_Yeti_cry, 1, false);
         attackSoundPlayed = true;
     }
 

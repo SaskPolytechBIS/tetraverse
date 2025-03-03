@@ -3,6 +3,13 @@ function caveman_attack_state() {
 	//check health
 	check_enemy_hp();
 	
+	// Play attack SFX on a specific frame, once per attack
+    // Suppose the “attack” animation frame is around image_index = 1
+    if (!attackSoundPlayed && image_index >= 1 && image_index < 2) {
+        audio_play_sound(sfx_Cavemen_hoo_haa, 1, false);
+        attackSoundPlayed = true;
+	}
+	
 	//modify state
 	//attack
 	//set tongue depth
@@ -14,6 +21,9 @@ function caveman_attack_state() {
 		depth = layer_get_depth(layer_get_id("Mobs"));
 		//inhale = false;
 		//attack = false;
+		
+		// Reset the flag so the next attack can play the sound again
+        attackSoundPlayed = false;
 	}
 
 

@@ -3,10 +3,10 @@ function tiger_attack_state() {
     check_enemy_hp();
 
     // Play attack sound **only once** per attack
-    //if (!attackSoundPlayed) {
-    //    audio_play_sound(snd_tiger_attack, 1, false);
-    //    attackSoundPlayed = true;
-    //}
+    if (!attackSoundPlayed) {
+        audio_play_sound(sfx_Tiger_roar, 1, false);
+        attackSoundPlayed = true;
+    }
 
     // Create hitbox during animation frames 4-5
     if image_index >= 4 and image_index <= 5 {
@@ -22,7 +22,7 @@ function tiger_attack_state() {
         state = tiger_states.IDLE;
         alarm[CAN_ATTACK] = attack_delay;
         depth = layer_get_depth(layer_get_id("Mobs"));
-        //attackSoundPlayed = false; // Reset for next attack
+        attackSoundPlayed = false; // Reset for next attack
     }
 
     // Apply movement & animations

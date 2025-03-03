@@ -29,3 +29,5 @@ states_array[caveman_states.ATTACK]			= caveman_attack_state;
 
 sprites_array[caveman_states.IDLE]			= spr_caveman_idle;
 sprites_array[caveman_states.ATTACK]		= spr_caveman_attack;
+
+attackSoundPlayed = false;

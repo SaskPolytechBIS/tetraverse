@@ -5,7 +5,7 @@ if audio_is_playing(current_bgm_id) {
 
 // Decide which music to play based on the current room
 switch (room) {
-    case rm_init:
+    case rm_menu:
         current_bgm_id = audio_play_sound(bgm_intro, 1, true);
         break;
         
@@ -21,3 +21,5 @@ switch (room) {
         current_bgm_id = audio_play_sound(bgm_victory_ending, 1, true);
         break;
 }
+
+show_debug_message("Current Room: " + string(room_get_name(room)));
