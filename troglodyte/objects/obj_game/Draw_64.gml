@@ -62,13 +62,11 @@ if room != rm_menu {
 	//game over
 	#region
 	if game_over_lose or (game_over_won and game_over_won_delay <= 0) {
-		//center gui
-			var mx = gw / 2;
-			var my = gh / 2;
-
+		
+		if game_over_lose var _screen = spr_game_over_lose else _screen = spr_game_end_won
+		
 		//draw game over
-		draw_sprite_ext(spr_game_over, 0, mx, my, 2, 2, 0, c_white, 1);
-		draw_sprite(spr_game_over_text, 0, mx, my);
+		draw_sprite(_screen, 0, 0, 0);
 	}
 	#endregion
 } else {

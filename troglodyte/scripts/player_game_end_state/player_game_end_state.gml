@@ -1,5 +1,5 @@
 ///player_die_state();
-function player_die_state() {
+function player_game_end_state() {
 	
 	// Play death sound effect only once
     if (!deathSoundPlayed) {
@@ -26,17 +26,7 @@ function player_die_state() {
 		} else {
 			get_input();		
 			if jump or attack {	
-				// Reset deathSoundPlayed so that the sound will play again on the next death
-                deathSoundPlayed = false;
-				
-				fade_to_room(room, room_start_pos_x, room_start_pos_y, room_start_facing, c_black);
-				//allow instant camera panning
-				with(obj_camera) {
-					//enable instant panning
-					camera_pan_speed = 1;
-					//reset camera pan speed
-					alarm[CAMERA_RESET] = 3;
-				}
+				game_restart();
 			}
 		}
 	}

@@ -17,6 +17,8 @@ game_over_lose = false;
 // game over and won
 game_over_won = false;
 
+game_over_won_delay = game_get_speed(gamespeed_fps) * 3;
+
 //main menu
 current_frame = 0;
    

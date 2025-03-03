@@ -35,11 +35,11 @@ if fade_to_colour {
 			}
 			
 			//ensure we stay in game end state
-			//if state != states.GAME_END {
+			if state != states.GAME_END {
 				//change start and update animation
 				state = states.IDLE;
 				anim();
-			//}
+			}
 		}
 		//pan camera quickly
 		obj_camera.camera_pan_speed = 1;
