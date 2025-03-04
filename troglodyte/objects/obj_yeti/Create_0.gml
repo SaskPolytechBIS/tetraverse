@@ -21,7 +21,7 @@ if (x < obj_player.x) {
 
 // Drag and Health
 drag = 0.08; // Reduce sliding effect
-hp = 4; // Yeti is stronger than the Boar
+hp = 5; // Yeti is stronger than the Boar
 death_gem_value = 5;
 
 // Attack mechanics

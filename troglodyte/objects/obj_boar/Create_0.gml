@@ -19,8 +19,8 @@ if (x < obj_player.x) {
 
 
 drag = 0.04;
-hp = 1.5;
-death_gem_value = 3;
+hp = 2;
+death_gem_value = 1;
 
 //attack actions
 can_attack = true;
