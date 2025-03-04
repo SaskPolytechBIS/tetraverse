@@ -46,7 +46,7 @@ states_array[yeti_states.RUN] = yeti_run_state;
 states_array[yeti_states.PUNCH] = yeti_punch_state;
 
 // Assign sprites
-sprites_array[yeti_states.IDLE] = spr_yeti_walk; // spr_yeti_idle;
+sprites_array[yeti_states.IDLE] = spr_yeti_poke; // spr_yeti_idle;
 sprites_array[yeti_states.RUN] = spr_yeti_run;
 sprites_array[yeti_states.PUNCH] = spr_yeti_punch;
 
