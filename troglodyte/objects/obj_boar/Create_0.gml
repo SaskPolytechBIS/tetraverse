@@ -8,7 +8,24 @@ hsp_decimal = 0;
 vsp_decimal = 0;
 facing = choose(-1, 1);
 
+<<<<<<< Updated upstream
 // actions
+=======
+attackSoundPlayed = false;
+
+if (x < obj_player.x) {
+    facing = 1;  // If the boar is to the left of the player, face right
+} else {
+    facing = -1; // If the boar is to the right of the player, face left
+}
+
+
+drag = 0.04;
+hp = 2;
+death_gem_value = 1;
+
+//attack actions
+>>>>>>> Stashed changes
 can_attack = true;
 attack_delay = game_get_speed(gamespeed_fps);
 
