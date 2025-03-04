@@ -5,7 +5,7 @@ hsp = 0;
 vsp = 0;
 max_hsp_initial = 1.5;
 max_hsp = max_hsp_initial;
-spd = 1.5;
+spd = 1.25;
 jump_spd = -6;
 hsp_decimal = 0;
 vsp_decimal = 0;
@@ -27,6 +27,9 @@ death_gem_value = 5;
 // Attack mechanics
 can_attack = true;
 attack_delay = game_get_speed(gamespeed_fps); // Room speed
+
+x_start = x; // Store the original X position when the Yeti spawns
+
 
 // Yeti states
 enum yeti_states {

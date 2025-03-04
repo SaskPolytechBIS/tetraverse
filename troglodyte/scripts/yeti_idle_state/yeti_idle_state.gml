@@ -10,7 +10,7 @@ function yeti_idle_state() {
     var detect_player_dis = 150; // Adjust range for realism
 
     if instance_exists(obj_player) {
-        var player_detected = (distance_to_object(obj_player) < detect_player_dis);
+        var player_detected = (abs(obj_player.x - x) < detect_player_dis); // Only checks X distance
 
         if (player_detected) {
             state = yeti_states.RUN; // Switch to RUN state
