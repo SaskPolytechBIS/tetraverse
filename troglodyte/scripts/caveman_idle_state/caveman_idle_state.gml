@@ -8,8 +8,9 @@ function caveman_idle_state() {
 	vsp = 0;
 	
 	//attack
-	var detect_player_dis = 40;
+	var detect_player_dis = 80;
 	var player_alert = false;
+	
 	if (distance_to_object(obj_player) < detect_player_dis) and sign(obj_player.x - x) = facing {
 		if obj_player.hp > 0 {
 			if can_attack {

@@ -104,7 +104,7 @@ sprites_array[states.CROUCH]		= s_player_block;	// todo: need design, if time al
 sprites_array[states.CROUCH_BLOCK]	= s_player_block;	// todo: need design, if time allows
 sprites_array[states.HURTING]		= s_player_block;	// todo: need design, if time allows
 sprites_array[states.KNOCKBACK]		= s_player_block;	// todo: need design, if time allows
-sprites_array[states.DIE]			= s_player_block;	// todo: need design, if time allows
+sprites_array[states.DIE]			= spr_player_die;	// todo: need design, if time allows
 sprites_array[states.GAME_END]		= s_player_block;	// todo: need design, if time allows
 
 //create mask array

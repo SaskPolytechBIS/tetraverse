@@ -19,15 +19,18 @@ attack_delay =  game_get_speed(gamespeed_fps);
 //states
 enum caveman_states {
 	IDLE,
+	//WALK,
 	ATTACK,
 }
 
 state = caveman_states.IDLE;
 
 states_array[caveman_states.IDLE]			= caveman_idle_state;
+//states_array[caveman_states.WALK]			= caveman_walk_state;
 states_array[caveman_states.ATTACK]			= caveman_attack_state;
 
 sprites_array[caveman_states.IDLE]			= spr_caveman_idle;
+//sprites_array[caveman_states.WALK]			= spr_caveman_walk;
 sprites_array[caveman_states.ATTACK]		= spr_caveman_attack;
 
 attackSoundPlayed = false;
