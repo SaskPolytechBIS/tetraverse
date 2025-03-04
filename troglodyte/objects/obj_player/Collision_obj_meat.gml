@@ -13,7 +13,7 @@ with(other) {
 		if room == rm_01 {
 			var layer_id = layer_get_id("Wall");
 			layer_set_visible(layer_id, true);
-			show_msg("You hear a door slide open in the distance..", 4)
+			show_msg("You hear a glass wall breaks in the distance..", 4)
 		}
 	}	
 }

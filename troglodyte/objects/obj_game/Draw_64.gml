@@ -63,7 +63,7 @@ if room != rm_menu {
 	#region
 	if game_over_lose or (game_over_won and game_over_won_delay <= 0) {
 		
-		if game_over_lose var _screen = spr_game_over_lose else _screen = spr_game_end_won
+		if game_over_lose var _screen = spr_game_over_lose else _screen = spr_credits
 		
 		//draw game over
 		draw_sprite(_screen, 0, 0, 0);
@@ -96,7 +96,7 @@ if room != rm_menu {
 		}
 	}
 	
-	draw_sprite(spr_main_screen2, 0, 0, (move * factor) - start_y);
+	draw_sprite(spr_main_screen, 0, 0, (move * factor) - start_y);
 	
 //	//draw highscore
 //	if current_frame == max_frames {

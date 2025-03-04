@@ -5,8 +5,8 @@
   "isDnD":false,
   "name":"calc_entity_movement",
   "parent":{
-    "name":"Mobs",
-    "path":"folders/Scripts/Mobs.yy",
+    "name":"Scripts",
+    "path":"folders/Scripts.yy",
   },
   "resourceType":"GMScript",
   "resourceVersion":"2.0",
