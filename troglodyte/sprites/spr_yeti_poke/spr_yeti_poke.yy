@@ -31,7 +31,7 @@
   ],
   "name":"spr_yeti_poke",
   "nineSlice":null,
-  "origin":7,
+  "origin":9,
   "parent":{
     "name":"Yeti",
     "path":"folders/Sprites/Mobs/Yeti.yy",
@@ -108,7 +108,7 @@
     "visibleRange":null,
     "volume":1.0,
     "xorigin":25,
-    "yorigin":50,
+    "yorigin":48,
   },
   "swatchColours":null,
   "swfPrecision":0.5,

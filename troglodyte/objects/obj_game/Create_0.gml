@@ -52,7 +52,7 @@ global.tooltip = ds_grid_create(6, 6);
 // objective
 global.tooltip[# 0, 0] = "Me Troglodyte! Me Smash Bad Things!";
 global.tooltip[# 0, 1] = "Me Strong! Me Boss! HA HA HA!";
-global.tooltip[# 0, 2] = "Me Beat Big Ugly Boss";
+global.tooltip[# 0, 2] = "Me Beat Big Ugly Boss!";
 global.tooltip[# 0, 3] = "B";
 global.tooltip[# 0, 4] = 16;
 global.tooltip[# 0, 5] = 0;
@@ -91,9 +91,9 @@ global.tooltip[# 4, 4] = 4;
 global.tooltip[# 4, 5] = 0;
 
 // level 1 complete
-global.tooltip[# 5, 0] = "That was just a warm-up";
-global.tooltip[# 5, 1] = "things are about to get wild!";
-global.tooltip[# 5, 2] = "—";
+global.tooltip[# 5, 0] = "That was just a warm-up!";
+global.tooltip[# 5, 1] = "Things are about to get wild!";
+global.tooltip[# 5, 2] = "";
 global.tooltip[# 5, 3] = "A";
 global.tooltip[# 5, 4] = 4;
 global.tooltip[# 5, 5] = 0;
