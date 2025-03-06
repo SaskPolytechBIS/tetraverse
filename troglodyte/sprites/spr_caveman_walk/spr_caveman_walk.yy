@@ -1,9 +1,9 @@
 {
   "$GMSprite":"",
   "%Name":"spr_caveman_walk",
-  "bboxMode":0,
+  "bboxMode":2,
   "bbox_bottom":52,
-  "bbox_left":4,
+  "bbox_left":16,
   "bbox_right":37,
   "bbox_top":3,
   "collisionKind":1,

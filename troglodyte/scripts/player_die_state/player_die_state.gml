@@ -24,6 +24,7 @@ function player_die_state() {
 		if lives <= 0 {
 			obj_game.game_over_lose = true;
 		} else {
+			show_msg("Press space to restart", 1);
 			get_input();		
 			if jump or attack {	
 				// Reset deathSoundPlayed so that the sound will play again on the next death

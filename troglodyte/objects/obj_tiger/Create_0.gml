@@ -19,7 +19,7 @@ if (x < obj_player.x) {
 
 
 drag = 0.04;
-hp = 2;
+hp = 3;
 death_gem_value = 3;
 
 //attack actions

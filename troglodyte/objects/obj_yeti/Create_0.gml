@@ -3,9 +3,9 @@ event_inherited(); // Inherit any parent behavior
 // Movement
 hsp = 0;
 vsp = 0;
-max_hsp_initial = 1.5;
+max_hsp_initial = 1.25;
 max_hsp = max_hsp_initial;
-spd = 1.25;
+spd = 1;
 jump_spd = -6;
 hsp_decimal = 0;
 vsp_decimal = 0;
@@ -21,7 +21,7 @@ if (x < obj_player.x) {
 
 // Drag and Health
 drag = 0.08; // Reduce sliding effect
-hp = 4; // Yeti is stronger than the Boar
+hp = 5; // Yeti is stronger than the Boar
 death_gem_value = 5;
 
 // Attack mechanics
