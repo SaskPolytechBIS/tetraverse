@@ -107,6 +107,7 @@
     {"name":"sfx_Boar_snort","order":1,"path":"sounds/sfx_Boar_snort/sfx_Boar_snort.yy",},
     {"name":"sfx_Caveman_shout","order":1,"path":"sounds/sfx_Caveman_shout/sfx_Caveman_shout.yy",},
     {"name":"sfx_club_hit_1","order":1,"path":"sounds/sfx_club_hit_1/sfx_club_hit_1.yy",},
+    {"name":"sfx_crunch_fried_chicken","order":4,"path":"sounds/sfx_crunch_fried_chicken/sfx_crunch_fried_chicken.yy",},
     {"name":"sfx_item_pick_up","order":3,"path":"sounds/sfx_item_pick_up/sfx_item_pick_up.yy",},
     {"name":"sfx_mc_death","order":2,"path":"sounds/sfx_mc_death/sfx_mc_death.yy",},
     {"name":"sfx_menu_buttons","order":1,"path":"sounds/sfx_menu_buttons/sfx_menu_buttons.yy",},

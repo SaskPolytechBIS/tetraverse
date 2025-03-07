@@ -58,7 +58,7 @@ collision();
 // item pickup sfx
 if (instance_place(x, y, obj_player)) 
 {    
-	audio_play_sound(sfx_item_pick_up, 1, false);
+	audio_play_sound(sfx_crunch_fried_chicken, 1, false);
 }
 
 //update the lights position

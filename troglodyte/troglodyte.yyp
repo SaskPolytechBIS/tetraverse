@@ -160,6 +160,7 @@
     {"id":{"name":"sfx_Cavemen_hoo_haa","path":"sounds/sfx_Cavemen_hoo_haa/sfx_Cavemen_hoo_haa.yy",},},
     {"id":{"name":"sfx_club_hit_1","path":"sounds/sfx_club_hit_1/sfx_club_hit_1.yy",},},
     {"id":{"name":"sfx_club_miss","path":"sounds/sfx_club_miss/sfx_club_miss.yy",},},
+    {"id":{"name":"sfx_crunch_fried_chicken","path":"sounds/sfx_crunch_fried_chicken/sfx_crunch_fried_chicken.yy",},},
     {"id":{"name":"sfx_item_pick_up","path":"sounds/sfx_item_pick_up/sfx_item_pick_up.yy",},},
     {"id":{"name":"sfx_mc_death","path":"sounds/sfx_mc_death/sfx_mc_death.yy",},},
     {"id":{"name":"sfx_menu_buttons","path":"sounds/sfx_menu_buttons/sfx_menu_buttons.yy",},},

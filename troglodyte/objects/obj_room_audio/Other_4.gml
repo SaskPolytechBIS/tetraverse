@@ -17,7 +17,7 @@ switch (room) {
         current_bgm_id = audio_play_sound(bgm_final_boss_3, 1, true);
         break;
         
-    case rm_credits:
+    case rm_game_end:
         current_bgm_id = audio_play_sound(bgm_victory_ending, 1, true);
         break;
 }
