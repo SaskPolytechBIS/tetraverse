@@ -47,7 +47,7 @@ msg = "";
 // 3- pad button
 // 4 - time on screen
 // 5 - has it been shown this game?
-global.tooltip = ds_grid_create(6, 6);
+global.tooltip = ds_grid_create(9, 6);
 
 // objective
 global.tooltip[# 0, 0] = "Me Troglodyte! Me Smash Bad Things!";
@@ -98,5 +98,26 @@ global.tooltip[# 5, 3] = "A";
 global.tooltip[# 5, 4] = 4;
 global.tooltip[# 5, 5] = 0;
 
+// Direectional
+global.tooltip[# 6, 0] = "Press";
+global.tooltip[# 6, 1] = "to move left and right";
+global.tooltip[# 6, 2] = "A & D";
+global.tooltip[# 6, 3] = "A";
+global.tooltip[# 6, 4] = 4;
+global.tooltip[# 6, 5] = 0;
 
+// Restart
+global.tooltip[# 7, 0] = "Press";
+global.tooltip[# 7, 1] = "to restart the game";
+global.tooltip[# 7, 2] = "R";
+global.tooltip[# 7, 3] = "A";
+global.tooltip[# 7, 4] = 4;
+global.tooltip[# 7, 5] = 0;
 
+// Restart
+global.tooltip[# 8, 0] = "Press";
+global.tooltip[# 8, 1] = "to quit the game";
+global.tooltip[# 8, 2] = "ESC";
+global.tooltip[# 8, 3] = "A";
+global.tooltip[# 8, 4] = 4;
+global.tooltip[# 8, 5] = 0;
